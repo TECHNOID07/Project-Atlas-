@@ -1,0 +1,717 @@
+/**
+ * PROJECT ATLAS — Futuristic Space Exploration & Mission Control Interface Styles
+ * Color Palette: Deep Black (#030712), Very Dark Navy (#071022), Dark Blue (#0c1e3e),
+ * Electric Cyan (#00f0ff), Ice Blue (#7de3f4), Pure White (#f8fafc), Restrained Amber (#f59e0b).
+ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-deep: #030712;
+  --bg-navy: rgba(7, 16, 34, 0.86);
+  --bg-card: rgba(12, 30, 62, 0.72);
+  --border-cyan: rgba(0, 240, 255, 0.35);
+  --border-subtle: rgba(125, 227, 244, 0.18);
+  --cyan: #00f0ff;
+  --ice: #7de3f4;
+  --white: #f8fafc;
+  --muted: #94a3b8;
+  --amber: #f59e0b;
+  --emerald: #10b981;
+  --font-sans: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Consolas', 'Cascadia Mono', monospace;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--bg-deep);
+  color: var(--white);
+  font-family: var(--font-sans);
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Projector High-Contrast Presentation Mode Overrides */
+body.projector-mode {
+  font-size: 112%;
+}
+body.projector-mode .hud-panel {
+  background: rgba(4, 10, 24, 0.94);
+  border-width: 2px;
+  border-color: var(--cyan);
+}
+body.projector-mode .label-3d {
+  font-size: 14px !important;
+  padding: 4px 9px !important;
+  font-weight: 700 !important;
+  background: rgba(3, 7, 18, 0.92) !important;
+  border: 1.5px solid var(--cyan) !important;
+}
+
+/* 3D Canvas Viewport */
+#viewport-container {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+#atlas-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* 3D Floating Object Labels Layer */
+#labels-layer {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.label-3d {
+  position: absolute;
+  transform: translate(-50%, -135%);
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: rgba(7, 16, 34, 0.78);
+  border: 1px solid rgba(0, 240, 255, 0.42);
+  color: var(--white);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  pointer-events: auto;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.15);
+}
+.label-3d:hover {
+  border-color: var(--cyan);
+  background: rgba(12, 30, 62, 0.95);
+  color: var(--cyan);
+}
+.label-3d.dwarf {
+  border-color: rgba(245, 158, 11, 0.55);
+  color: #fde68a;
+}
+
+/* Hover Tooltip */
+#hover-tooltip {
+  position: fixed;
+  z-index: 30;
+  pointer-events: none;
+  background: rgba(4, 10, 24, 0.95);
+  border: 1px solid var(--cyan);
+  padding: 7px 11px;
+  border-radius: 6px;
+  font-size: 12px;
+  color: var(--white);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.75);
+  display: none;
+}
+
+/* Top Telemetry Header Bar */
+#top-bar {
+  position: fixed;
+  top: 10px;
+  left: 14px;
+  right: 14px;
+  height: 48px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  background: var(--bg-navy);
+  border: 1px solid var(--border-cyan);
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 24px rgba(0, 240, 255, 0.12);
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.4s ease;
+}
+
+.brand-block {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-emblem {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid var(--cyan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cyan);
+  font-weight: 800;
+  font-size: 13px;
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.45);
+}
+
+.brand-title {
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  color: var(--white);
+}
+
+.brand-sub {
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  color: var(--ice);
+  font-family: var(--font-mono);
+}
+
+.telemetry-strip {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+}
+
+.telemetry-pill {
+  padding: 4px 9px;
+  border-radius: 4px;
+  background: rgba(12, 30, 62, 0.75);
+  border: 1px solid var(--border-subtle);
+  color: var(--ice);
+}
+
+.telemetry-pill strong {
+  color: var(--cyan);
+}
+
+.telemetry-pill.amber {
+  border-color: rgba(245, 158, 11, 0.55);
+  color: #fcd34d;
+}
+
+.top-actions {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+/* Buttons & Controls */
+.atlas-btn {
+  background: rgba(12, 30, 62, 0.85);
+  color: var(--white);
+  border: 1px solid var(--border-cyan);
+  padding: 6px 11px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.atlas-btn:hover {
+  background: rgba(0, 240, 255, 0.18);
+  border-color: var(--cyan);
+  color: var(--cyan);
+  box-shadow: 0 0 12px rgba(0, 240, 255, 0.25);
+}
+.atlas-btn.active, .atlas-btn.primary {
+  background: rgba(0, 240, 255, 0.22);
+  border-color: var(--cyan);
+  color: var(--cyan);
+}
+.atlas-btn.amber {
+  border-color: var(--amber);
+  color: #fde68a;
+  background: rgba(245, 158, 11, 0.16);
+}
+.atlas-btn.amber:hover {
+  background: rgba(245, 158, 11, 0.28);
+}
+
+/* HUD Side Panels */
+.hud-panel {
+  position: fixed;
+  top: 68px;
+  bottom: 76px;
+  z-index: 10;
+  background: var(--bg-navy);
+  border: 1px solid var(--border-cyan);
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.65);
+}
+
+#left-panel {
+  left: 14px;
+  width: 280px;
+}
+#left-panel.collapsed {
+  transform: translateX(-300px);
+  opacity: 0;
+  pointer-events: none;
+}
+
+#right-panel {
+  right: 14px;
+  width: 365px;
+}
+#right-panel.collapsed {
+  transform: translateX(385px);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.panel-header {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(12, 30, 62, 0.65);
+}
+
+.panel-title {
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--cyan);
+}
+
+.panel-body {
+  padding: 12px 14px;
+  overflow-y: auto;
+  flex: 1;
+  user-select: text;
+}
+.panel-body::-webkit-scrollbar {
+  width: 6px;
+}
+.panel-body::-webkit-scrollbar-thumb {
+  background: rgba(0, 240, 255, 0.35);
+  border-radius: 3px;
+}
+
+/* Left Navigation Mode Buttons */
+.nav-mode-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 12px;
+}
+
+.nav-mode-btn {
+  width: 100%;
+  text-align: left;
+  padding: 8px 10px;
+  background: rgba(12, 30, 62, 0.55);
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  color: var(--white);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  transition: all 0.15s;
+}
+.nav-mode-btn:hover {
+  border-color: var(--cyan);
+  background: rgba(0, 240, 255, 0.12);
+}
+.nav-mode-btn.active {
+  border-color: var(--cyan);
+  background: rgba(0, 240, 255, 0.22);
+  box-shadow: inset 3px 0 0 var(--cyan);
+}
+.nav-mode-icon {
+  font-size: 15px;
+  color: var(--cyan);
+  width: 20px;
+  text-align: center;
+}
+.nav-mode-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  display: block;
+}
+.nav-mode-desc {
+  font-size: 10.5px;
+  color: var(--muted);
+  display: block;
+}
+
+/* Quick Object Selector List inside Left Panel */
+.selector-section-title {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--ice);
+  text-transform: uppercase;
+  margin: 10px 0 6px;
+}
+
+.quick-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+
+.quick-chip {
+  padding: 6px 8px;
+  font-size: 11.5px;
+  border-radius: 5px;
+  background: rgba(12, 30, 62, 0.65);
+  border: 1px solid var(--border-subtle);
+  color: var(--white);
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.quick-chip:hover, .quick-chip.active {
+  border-color: var(--cyan);
+  background: rgba(0, 240, 255, 0.18);
+  color: var(--cyan);
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* Right Panel Scientific Specs & Cards */
+.info-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+}
+.info-card.amber-warn {
+  border-color: rgba(245, 158, 11, 0.6);
+  background: rgba(245, 158, 11, 0.1);
+}
+.info-card h4 {
+  font-size: 12px;
+  color: var(--cyan);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 6px;
+}
+.spec-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+.spec-table tr {
+  border-bottom: 1px solid rgba(148, 163, 184, 0.14);
+}
+.spec-table td {
+  padding: 5px 2px;
+}
+.spec-table td:first-child {
+  color: var(--muted);
+}
+.spec-table td:last-child {
+  text-align: right;
+  font-family: var(--font-mono);
+  color: var(--white);
+  font-weight: 600;
+}
+
+.fact-list {
+  padding-left: 16px;
+  font-size: 12px;
+  line-height: 1.48;
+  color: #e2e8f0;
+}
+.fact-list li {
+  margin-bottom: 5px;
+}
+
+/* Bottom Simulation Timeline & Camera Bar */
+#bottom-bar {
+  position: fixed;
+  bottom: 10px;
+  left: 14px;
+  right: 14px;
+  height: 56px;
+  z-index: 10;
+  background: var(--bg-navy);
+  border: 1px solid var(--border-cyan);
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  gap: 12px;
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.4s ease;
+}
+
+.timeline-group, .scale-group, .camera-group {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.sim-date-readout {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--cyan);
+  background: rgba(3, 7, 18, 0.75);
+  border: 1px solid var(--border-subtle);
+  padding: 5px 10px;
+  border-radius: 4px;
+  min-width: 112px;
+  text-align: center;
+}
+
+.atlas-input, .atlas-select {
+  background: rgba(3, 7, 18, 0.85);
+  border: 1px solid var(--border-cyan);
+  color: var(--white);
+  padding: 5px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: var(--font-sans);
+}
+
+.atlas-slider {
+  width: 100%;
+  accent-color: var(--cyan);
+  cursor: pointer;
+}
+
+/* Opening Loading Screen & First-Run Guide Overlay */
+#loading-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: radial-gradient(circle at center, #081836 0%, #030712 75%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  transition: opacity 0.6s ease;
+}
+#loading-screen.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.loading-wordmark {
+  font-size: 42px;
+  font-weight: 900;
+  letter-spacing: 0.26em;
+  color: var(--white);
+  text-shadow: 0 0 28px rgba(0, 240, 255, 0.65);
+  margin-bottom: 6px;
+}
+
+.loading-subtitle {
+  font-size: 14px;
+  letter-spacing: 0.22em;
+  color: var(--cyan);
+  margin-bottom: 24px;
+  font-family: var(--font-mono);
+}
+
+.loading-progress-box {
+  width: 340px;
+  max-width: 90vw;
+  height: 6px;
+  background: rgba(12, 30, 62, 0.9);
+  border: 1px solid var(--border-cyan);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+#loading-bar-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #0284c7, #00f0ff);
+  transition: width 0.25s ease;
+}
+
+#loading-status-text {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--ice);
+  margin-bottom: 20px;
+}
+
+/* Modal / Introductory Guide / Dataset Info Overlay */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: rgba(3, 7, 18, 0.82);
+  backdrop-filter: blur(6px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.modal-backdrop.open {
+  display: flex;
+}
+.modal-window {
+  width: 720px;
+  max-width: 95vw;
+  max-height: 86vh;
+  background: #071022;
+  border: 1px solid var(--cyan);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.85);
+}
+
+/* Projector Demo Banner */
+#demo-banner {
+  position: fixed;
+  top: 66px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 25;
+  background: rgba(7, 16, 34, 0.95);
+  border: 2px solid var(--amber);
+  border-radius: 8px;
+  padding: 8px 18px;
+  display: none;
+  align-items: center;
+  gap: 14px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.75);
+}
+#demo-banner.active {
+  display: flex;
+}
+
+@media (max-width: 1024px) {
+  #left-panel { width: 235px; }
+  #right-panel { width: 300px; }
+  .telemetry-strip { display: none; }
+}
+
+
+/* ============================================================================
+   CINEMATIC VIEW MODE (Unobstructed 3D Universe View — Shortcut: H / Esc)
+   ============================================================================ */
+.atlas-btn.cinematic-trigger {
+  border-color: rgba(0, 240, 255, 0.65);
+  background: linear-gradient(135deg, rgba(0, 240, 255, 0.16), rgba(12, 30, 62, 0.9));
+  color: var(--cyan);
+  letter-spacing: 0.05em;
+}
+.atlas-btn.cinematic-trigger:hover {
+  background: rgba(0, 240, 255, 0.28);
+  color: var(--white);
+  box-shadow: 0 0 16px rgba(0, 240, 255, 0.45);
+}
+
+#labels-layer {
+  transition: opacity 0.35s ease;
+}
+
+body.cinematic-mode #top-bar {
+  transform: translateY(-80px);
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+body.cinematic-mode #left-panel {
+  transform: translateX(-340px);
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+body.cinematic-mode #right-panel {
+  transform: translateX(410px);
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+body.cinematic-mode #bottom-bar {
+  transform: translateY(90px);
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+body.cinematic-mode #labels-layer,
+body.cinematic-mode #demo-banner,
+body.cinematic-mode #hover-tooltip {
+  opacity: 0 !important;
+  pointer-events: none !important;
+  visibility: hidden !important;
+}
+
+/* Subtle Floating SHOW INTERFACE Button (Only active in cinematic-mode when mouse moves) */
+#btn-restore-ui {
+  position: fixed;
+  bottom: 22px;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  z-index: 45;
+  padding: 6px 16px;
+  border-radius: 999px;
+  background: rgba(7, 16, 34, 0.68);
+  border: 1px solid rgba(0, 240, 255, 0.42);
+  color: rgba(248, 250, 252, 0.88);
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.55);
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition: opacity 0.35s ease, transform 0.35s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+body.cinematic-mode #btn-restore-ui.visible {
+  opacity: 0.86;
+  pointer-events: auto;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+body.cinematic-mode #btn-restore-ui.visible:hover {
+  opacity: 1;
+  background: rgba(12, 30, 62, 0.92);
+  border-color: var(--cyan);
+  color: var(--cyan);
+  box-shadow: 0 0 16px rgba(0, 240, 255, 0.35);
+}

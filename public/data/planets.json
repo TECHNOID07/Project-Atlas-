@@ -1,0 +1,1209 @@
+{
+  "metadata": {
+    "title": "PROJECT ATLAS — Solar System Planetary Dataset",
+    "epoch": "J2000 (2000-01-01T12:00:00Z)",
+    "primarySource": "NASA Space Science Data Coordinated Archive (NSSDCA) Planetary Fact Sheet - Metric",
+    "sourceUrl": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+    "lastVerified": "2026-11-15",
+    "notes": "Mean values at J2000 epoch. Gas and ice giant radii, gravity, and temperatures are measured at the 1-bar atmospheric pressure level."
+  },
+  "sun": {
+    "id": "sun",
+    "name": "Sun",
+    "classification": "G2 V Main-Sequence Yellow Dwarf Star",
+    "category": "star",
+    "diameterKm": {
+      "value": 1391400,
+      "unit": "km",
+      "approx": false,
+      "note": "2x volumetric mean radius (695,700 km)",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html"
+    },
+    "mass10_24Kg": {
+      "value": 1988400,
+      "unit": "10^24 kg",
+      "approx": false,
+      "earthRatio": 332900,
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html"
+    },
+    "meanDistanceFromSunMkm": {
+      "value": 0,
+      "unit": "10^6 km",
+      "au": 0,
+      "approx": false,
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html"
+    },
+    "orbitalPeriodDays": {
+      "value": 0,
+      "unit": "days",
+      "note": "Orbits Galactic Center every ~225-250 million years at 19.4 km/s relative to nearby stars",
+      "approx": true,
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html"
+    },
+    "rotationPeriodHours": {
+      "value": 609.12,
+      "unit": "hours",
+      "days": 25.38,
+      "note": "Sidereal rotation at 16° latitude; differential rotation varies with latitude",
+      "approx": false,
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html"
+    },
+    "axialTiltDeg": {
+      "value": 7.25,
+      "unit": "degrees",
+      "note": "Obliquity to ecliptic",
+      "approx": false,
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html"
+    },
+    "gravityMs2": {
+      "value": 274.0,
+      "unit": "m/s²",
+      "earthRatio": 28.0,
+      "approx": false,
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html"
+    },
+    "escapeVelocityKms": {
+      "value": 617.6,
+      "unit": "km/s",
+      "approx": false,
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html"
+    },
+    "densityKgm3": {
+      "value": 1408,
+      "unit": "kg/m³",
+      "approx": false,
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html"
+    },
+    "temperatureC": {
+      "value": 5499,
+      "kelvin": 5772,
+      "unit": "°C (Effective Photosphere)",
+      "coreKelvin": 15710000,
+      "approx": false,
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html"
+    },
+    "luminosity10_24Js": {
+      "value": 382.8,
+      "unit": "10^24 J/s",
+      "approx": false,
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html"
+    },
+    "atmosphereComposition": [
+      {
+        "gas": "Hydrogen (H)",
+        "percentage": "90.965%"
+      },
+      {
+        "gas": "Helium (He)",
+        "percentage": "8.889%"
+      },
+      {
+        "gas": "Oxygen, Carbon, Neon, Nitrogen (Minor)",
+        "percentage": "~0.146% (O 774 ppm, C 330 ppm, Ne 112 ppm, N 102 ppm)"
+      }
+    ],
+    "knownMoonsCount": 0,
+    "ringSystem": false,
+    "magneticField": "Yes (Polar 1-2 Gauss, Sunspots ~3000 Gauss, 11.4-year cycle)",
+    "colorHex": "#ffaa22",
+    "emissiveHex": "#ff7700",
+    "texture": "./assets/textures/sun.webp",
+    "facts": [
+      "The Sun contains approximately 99.85% of all mass in the Solar System.",
+      "Every second, the Sun's core converts about 4.26 million metric tons of mass into energy via nuclear fusion.",
+      "Sunlight takes an average of 8.3 minutes to travel 149.6 million km (1 AU) to reach Earth.",
+      "The solar wind creates the heliosphere, a magnetic bubble whose termination shock lies between 80 and 100 AU."
+    ]
+  },
+  "planets": [
+    {
+      "id": "mercury",
+      "name": "Mercury",
+      "classification": "Terrestrial Planet",
+      "category": "planet",
+      "orderFromSun": 1,
+      "diameterKm": {
+        "value": 4879,
+        "unit": "km",
+        "earthRatio": 0.383,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html"
+      },
+      "mass10_24Kg": {
+        "value": 0.3301,
+        "unit": "10^24 kg",
+        "earthRatio": 0.0553,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html"
+      },
+      "meanDistanceFromSunMkm": {
+        "value": 57.909,
+        "unit": "10^6 km",
+        "au": 0.387,
+        "perihelionMkm": 46.0,
+        "aphelionMkm": 69.818,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 87.969,
+        "unit": "days",
+        "earthRatio": 0.241,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html"
+      },
+      "orbitalVelocityKms": {
+        "value": 47.36,
+        "unit": "km/s",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html"
+      },
+      "rotationPeriodHours": {
+        "value": 1407.6,
+        "unit": "hours",
+        "lengthOfDayHours": 4222.6,
+        "retrograde": false,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html"
+      },
+      "axialTiltDeg": {
+        "value": 0.034,
+        "unit": "degrees",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html"
+      },
+      "orbitalInclinationDeg": {
+        "value": 7.004,
+        "unit": "degrees",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html"
+      },
+      "orbitalEccentricity": {
+        "value": 0.2056,
+        "unit": "dimensionless",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html"
+      },
+      "gravityMs2": {
+        "value": 3.7,
+        "unit": "m/s²",
+        "earthRatio": 0.378,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html"
+      },
+      "escapeVelocityKms": {
+        "value": 4.3,
+        "unit": "km/s",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html"
+      },
+      "densityKgm3": {
+        "value": 5429,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html"
+      },
+      "temperatureC": {
+        "value": 167,
+        "kelvin": 440,
+        "rangeNote": "Sunward side 590–725 K; dark side ~100 K",
+        "unit": "°C (Mean)",
+        "approx": true,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html"
+      },
+      "surfacePressureBars": {
+        "value": 0,
+        "note": "<~5 × 10^-15 bar (Surface-bounded exosphere)",
+        "unit": "bars",
+        "approx": true,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html"
+      },
+      "atmosphereComposition": [
+        {
+          "gas": "Sodium (Na), Magnesium (Mg), Oxygen (O)",
+          "percentage": "Surface-bounded exosphere (Column abundances in 10^6/cm²)"
+        },
+        {
+          "gas": "Hydrogen (H), Potassium (K), Calcium (Ca)",
+          "percentage": "Trace exospheric species"
+        }
+      ],
+      "knownMoonsCount": 0,
+      "featuredMoons": [],
+      "ringSystem": false,
+      "magneticField": "Yes (Weak dipole ~1% of Earth's)",
+      "colorHex": "#9c968e",
+      "texture": "./assets/textures/mercury.webp",
+      "facts": [
+        "Mercury is the smallest classical planet and the closest to the Sun, with the highest orbital eccentricity (0.2056) of all eight planets.",
+        "Although it is closest to the Sun, Mercury is not the hottest planet—Venus is hotter due to its dense carbon dioxide greenhouse atmosphere.",
+        "Mercury has a 3:2 spin-orbit resonance, rotating three times on its axis for every two orbits around the Sun, making one solar day last 4,222.6 hours (~176 Earth days).",
+        "Mercury's iron-rich core has a radius of ~2,000 km, accounting for a remarkably large fraction of the planet's volume and giving it a high mean density of 5,429 kg/m³."
+      ]
+    },
+    {
+      "id": "venus",
+      "name": "Venus",
+      "classification": "Terrestrial Planet",
+      "category": "planet",
+      "orderFromSun": 2,
+      "diameterKm": {
+        "value": 12104,
+        "unit": "km",
+        "earthRatio": 0.949,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html"
+      },
+      "mass10_24Kg": {
+        "value": 4.8673,
+        "unit": "10^24 kg",
+        "earthRatio": 0.815,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html"
+      },
+      "meanDistanceFromSunMkm": {
+        "value": 108.21,
+        "unit": "10^6 km",
+        "au": 0.723,
+        "perihelionMkm": 107.48,
+        "aphelionMkm": 108.941,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 224.701,
+        "unit": "days",
+        "earthRatio": 0.615,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html"
+      },
+      "orbitalVelocityKms": {
+        "value": 35.02,
+        "unit": "km/s",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html"
+      },
+      "rotationPeriodHours": {
+        "value": -5832.6,
+        "unit": "hours",
+        "lengthOfDayHours": 2802.0,
+        "retrograde": true,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html"
+      },
+      "axialTiltDeg": {
+        "value": 177.36,
+        "unit": "degrees",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html"
+      },
+      "orbitalInclinationDeg": {
+        "value": 3.395,
+        "unit": "degrees",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html"
+      },
+      "orbitalEccentricity": {
+        "value": 0.0068,
+        "unit": "dimensionless",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html"
+      },
+      "gravityMs2": {
+        "value": 8.87,
+        "unit": "m/s²",
+        "earthRatio": 0.903,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html"
+      },
+      "escapeVelocityKms": {
+        "value": 10.36,
+        "unit": "km/s",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html"
+      },
+      "densityKgm3": {
+        "value": 5243,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html"
+      },
+      "temperatureC": {
+        "value": 464,
+        "kelvin": 737,
+        "rangeNote": "Nearly uniform surface temperature day and night",
+        "unit": "°C (Mean)",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html"
+      },
+      "surfacePressureBars": {
+        "value": 92,
+        "note": "92 bars (~90x Earth's sea-level pressure)",
+        "unit": "bars",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html"
+      },
+      "atmosphereComposition": [
+        {
+          "gas": "Carbon Dioxide (CO₂)",
+          "percentage": "96.5%"
+        },
+        {
+          "gas": "Nitrogen (N₂)",
+          "percentage": "3.5%"
+        },
+        {
+          "gas": "Sulfur Dioxide (SO₂), Argon, Water Vapor",
+          "percentage": "Trace (SO₂ 150 ppm, Ar 70 ppm, H₂O 20 ppm)"
+        }
+      ],
+      "knownMoonsCount": 0,
+      "featuredMoons": [],
+      "ringSystem": false,
+      "magneticField": "No global magnetic field",
+      "colorHex": "#e6b86a",
+      "texture": "./assets/textures/venus.webp",
+      "facts": [
+        "Venus rotates backwards (retrograde, obliquity 177.36°), taking 243 Earth days (5,832.6 hours) for one sidereal rotation—longer than its 224.7-day orbital year.",
+        "Its crushing 92-bar carbon dioxide atmosphere traps heat in a runaway greenhouse effect, maintaining a mean surface temperature of 464 °C (737 K).",
+        "Venus has the most nearly circular orbit of any planet in the Solar System, with an eccentricity of just 0.0068.",
+        "Thick clouds of sulfuric acid droplets reflect about 77% of incoming sunlight (Bond albedo 0.77), making Venus the brightest planet in Earth's night sky."
+      ]
+    },
+    {
+      "id": "earth",
+      "name": "Earth",
+      "classification": "Terrestrial Planet",
+      "category": "planet",
+      "orderFromSun": 3,
+      "diameterKm": {
+        "value": 12756,
+        "unit": "km",
+        "earthRatio": 1.0,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+      },
+      "mass10_24Kg": {
+        "value": 5.9722,
+        "unit": "10^24 kg",
+        "earthRatio": 1.0,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+      },
+      "meanDistanceFromSunMkm": {
+        "value": 149.598,
+        "unit": "10^6 km",
+        "au": 1.0,
+        "perihelionMkm": 147.095,
+        "aphelionMkm": 152.1,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 365.256,
+        "unit": "days",
+        "earthRatio": 1.0,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+      },
+      "orbitalVelocityKms": {
+        "value": 29.78,
+        "unit": "km/s",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+      },
+      "rotationPeriodHours": {
+        "value": 23.9345,
+        "unit": "hours",
+        "lengthOfDayHours": 24.0,
+        "retrograde": false,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+      },
+      "axialTiltDeg": {
+        "value": 23.44,
+        "unit": "degrees",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+      },
+      "orbitalInclinationDeg": {
+        "value": 5e-05,
+        "unit": "degrees",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+      },
+      "orbitalEccentricity": {
+        "value": 0.0167,
+        "unit": "dimensionless",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+      },
+      "gravityMs2": {
+        "value": 9.80665,
+        "unit": "m/s²",
+        "earthRatio": 1.0,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+      },
+      "escapeVelocityKms": {
+        "value": 11.186,
+        "unit": "km/s",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+      },
+      "densityKgm3": {
+        "value": 5514,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+      },
+      "temperatureC": {
+        "value": 15,
+        "kelvin": 288,
+        "rangeNote": "Typical diurnal range 10 to 20 °C",
+        "unit": "°C (Mean)",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+      },
+      "surfacePressureBars": {
+        "value": 1.014,
+        "note": "1,014 mb at sea level",
+        "unit": "bars",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+      },
+      "atmosphereComposition": [
+        {
+          "gas": "Nitrogen (N₂)",
+          "percentage": "78.08%"
+        },
+        {
+          "gas": "Oxygen (O₂)",
+          "percentage": "20.95%"
+        },
+        {
+          "gas": "Argon (Ar) & Carbon Dioxide (CO₂)",
+          "percentage": "Ar 0.934% (9340 ppm), CO₂ 420 ppm, Water Vapor ~1% (variable)"
+        }
+      ],
+      "knownMoonsCount": 1,
+      "featuredMoons": [
+        "moon"
+      ],
+      "ringSystem": false,
+      "magneticField": "Yes (Strong global dipole 0.24–0.66 Gauss at surface)",
+      "colorHex": "#2b82ff",
+      "texture": "./assets/textures/earth.webp",
+      "facts": [
+        "Earth is the densest planet in the Solar System (5,514 kg/m³) and the only known world with stable liquid water oceans on its surface and confirmed life.",
+        "Earth's 23.44° axial tilt relative to its orbital plane drives the annual cycle of seasons across the Northern and Southern Hemispheres.",
+        "Its hydrosphere holds approximately 1.4 × 10²¹ kg of water, while its global magnetosphere shields the atmosphere from solar wind stripping.",
+        "Earth's single natural satellite, the Moon (diameter 3,475 km), is over one-quarter the diameter of Earth and stabilizes Earth's axial obliquity."
+      ]
+    },
+    {
+      "id": "mars",
+      "name": "Mars",
+      "classification": "Terrestrial Planet",
+      "category": "planet",
+      "orderFromSun": 4,
+      "diameterKm": {
+        "value": 6792,
+        "unit": "km",
+        "earthRatio": 0.532,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "mass10_24Kg": {
+        "value": 0.64169,
+        "unit": "10^24 kg",
+        "earthRatio": 0.107,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "meanDistanceFromSunMkm": {
+        "value": 227.956,
+        "unit": "10^6 km",
+        "au": 1.524,
+        "perihelionMkm": 206.65,
+        "aphelionMkm": 249.261,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 686.98,
+        "unit": "days",
+        "earthRatio": 1.881,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "orbitalVelocityKms": {
+        "value": 24.08,
+        "unit": "km/s",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "rotationPeriodHours": {
+        "value": 24.6229,
+        "unit": "hours",
+        "lengthOfDayHours": 24.6597,
+        "retrograde": false,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "axialTiltDeg": {
+        "value": 25.19,
+        "unit": "degrees",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "orbitalInclinationDeg": {
+        "value": 1.848,
+        "unit": "degrees",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "orbitalEccentricity": {
+        "value": 0.0935,
+        "unit": "dimensionless",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "gravityMs2": {
+        "value": 3.73,
+        "unit": "m/s²",
+        "earthRatio": 0.38,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "escapeVelocityKms": {
+        "value": 5.03,
+        "unit": "km/s",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "densityKgm3": {
+        "value": 3934,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "temperatureC": {
+        "value": -65,
+        "kelvin": 208,
+        "rangeNote": "-89 to -31 °C at Viking 1 Lander site",
+        "unit": "°C (Mean)",
+        "approx": true,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "surfacePressureBars": {
+        "value": 0.00636,
+        "note": "6.36 mb mean (seasonal variation 4.0 to 8.7 mb)",
+        "unit": "bars",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "atmosphereComposition": [
+        {
+          "gas": "Carbon Dioxide (CO₂)",
+          "percentage": "95.1%"
+        },
+        {
+          "gas": "Nitrogen (N₂)",
+          "percentage": "2.59%"
+        },
+        {
+          "gas": "Argon (Ar) & Oxygen (O₂)",
+          "percentage": "Ar 1.94%, O₂ 0.16%, CO 0.06%"
+        }
+      ],
+      "knownMoonsCount": 2,
+      "featuredMoons": [
+        "phobos",
+        "deimos"
+      ],
+      "ringSystem": false,
+      "magneticField": "No global field (localized crustal magnetic fields)",
+      "colorHex": "#d95b38",
+      "texture": "./assets/textures/mars.webp",
+      "facts": [
+        "Mars has a solar day (sol) of 24 hours 39 minutes 35 seconds (24.6597 hours) and an axial tilt of 25.19°, closely resembling Earth's day length and seasonal tilt.",
+        "Iron oxide (rust) dust blanketing the surface gives Mars its reddish color, while polar caps contain water ice and seasonal carbon dioxide dry ice.",
+        "Mars hosts Olympus Mons (the largest volcano in the Solar System) and Valles Marineris, a canyon system spanning 30 km in topographic range.",
+        "Its two small, irregularly shaped moons, Phobos and Deimos, orbit at 9,378 km and 23,459 km from Mars's center."
+      ]
+    },
+    {
+      "id": "jupiter",
+      "name": "Jupiter",
+      "classification": "Gas Giant Planet",
+      "category": "planet",
+      "orderFromSun": 5,
+      "diameterKm": {
+        "value": 142984,
+        "unit": "km",
+        "earthRatio": 11.209,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html"
+      },
+      "mass10_24Kg": {
+        "value": 1898.13,
+        "unit": "10^24 kg",
+        "earthRatio": 317.83,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html"
+      },
+      "meanDistanceFromSunMkm": {
+        "value": 778.479,
+        "unit": "10^6 km",
+        "au": 5.204,
+        "perihelionMkm": 740.595,
+        "aphelionMkm": 816.363,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 4332.589,
+        "unit": "days",
+        "earthRatio": 11.862,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html"
+      },
+      "orbitalVelocityKms": {
+        "value": 13.06,
+        "unit": "km/s",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html"
+      },
+      "rotationPeriodHours": {
+        "value": 9.925,
+        "unit": "hours",
+        "lengthOfDayHours": 9.9259,
+        "retrograde": false,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html"
+      },
+      "axialTiltDeg": {
+        "value": 3.13,
+        "unit": "degrees",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html"
+      },
+      "orbitalInclinationDeg": {
+        "value": 1.304,
+        "unit": "degrees",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html"
+      },
+      "orbitalEccentricity": {
+        "value": 0.0487,
+        "unit": "dimensionless",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html"
+      },
+      "gravityMs2": {
+        "value": 23.12,
+        "unit": "m/s² (eq., 1 bar)",
+        "earthRatio": 2.364,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html"
+      },
+      "escapeVelocityKms": {
+        "value": 59.5,
+        "unit": "km/s",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html"
+      },
+      "densityKgm3": {
+        "value": 1326,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html"
+      },
+      "temperatureC": {
+        "value": -110,
+        "kelvin": 165,
+        "rangeNote": "165 K (-108 °C) at 1-bar pressure level",
+        "unit": "°C (1-bar level)",
+        "approx": true,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html"
+      },
+      "surfacePressureBars": {
+        "value": null,
+        "note": ">>1000 bars (No solid surface; gas giant)",
+        "unit": "bars",
+        "approx": true,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html"
+      },
+      "atmosphereComposition": [
+        {
+          "gas": "Molecular Hydrogen (H₂)",
+          "percentage": "89.8% (±2.0%)"
+        },
+        {
+          "gas": "Helium (He)",
+          "percentage": "10.2% (±2.0%)"
+        },
+        {
+          "gas": "Methane (CH₄), Ammonia (NH₃), Water",
+          "percentage": "Trace (CH₄ 3000 ppm, NH₃ 260 ppm)"
+        }
+      ],
+      "knownMoonsCount": 95,
+      "featuredMoons": [
+        "io",
+        "europa",
+        "ganymede",
+        "callisto"
+      ],
+      "ringSystem": true,
+      "magneticField": "Yes (Intense dipole 4.0–13.0 Gauss at 1 Rj)",
+      "colorHex": "#d8a878",
+      "texture": "./assets/textures/jupiter.webp",
+      "facts": [
+        "Jupiter is the largest and most massive planet in the Solar System, with a mass 317.83 times Earth's—more than twice the combined mass of all other planets.",
+        "It has the shortest day of all eight planets, completing a full rotation in just 9.925 hours, which flattens its poles (ellipticity 0.06487).",
+        "Jupiter's turbulent atmosphere features alternating zonal jet streams (up to 150 m/s) and the Great Red Spot, a giant anticyclonic storm larger than Earth.",
+        "Its 95 confirmed moons include the four large Galilean satellites discovered in 1610: Io, Europa, Ganymede, and Callisto."
+      ]
+    },
+    {
+      "id": "saturn",
+      "name": "Saturn",
+      "classification": "Gas Giant Planet",
+      "category": "planet",
+      "orderFromSun": 6,
+      "diameterKm": {
+        "value": 120536,
+        "unit": "km",
+        "earthRatio": 9.449,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html"
+      },
+      "mass10_24Kg": {
+        "value": 568.32,
+        "unit": "10^24 kg",
+        "earthRatio": 95.16,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html"
+      },
+      "meanDistanceFromSunMkm": {
+        "value": 1432.041,
+        "unit": "10^6 km",
+        "au": 9.573,
+        "perihelionMkm": 1357.554,
+        "aphelionMkm": 1506.527,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 10755.699,
+        "unit": "days",
+        "earthRatio": 29.447,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html"
+      },
+      "orbitalVelocityKms": {
+        "value": 9.67,
+        "unit": "km/s",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html"
+      },
+      "rotationPeriodHours": {
+        "value": 10.656,
+        "unit": "hours",
+        "lengthOfDayHours": 10.656,
+        "retrograde": false,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html"
+      },
+      "axialTiltDeg": {
+        "value": 26.73,
+        "unit": "degrees",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html"
+      },
+      "orbitalInclinationDeg": {
+        "value": 2.486,
+        "unit": "degrees",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html"
+      },
+      "orbitalEccentricity": {
+        "value": 0.052,
+        "unit": "dimensionless",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html"
+      },
+      "gravityMs2": {
+        "value": 8.96,
+        "unit": "m/s² (eq., 1 bar; 9.0 rounded)",
+        "earthRatio": 0.916,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html"
+      },
+      "escapeVelocityKms": {
+        "value": 35.5,
+        "unit": "km/s",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html"
+      },
+      "densityKgm3": {
+        "value": 687,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html"
+      },
+      "temperatureC": {
+        "value": -140,
+        "kelvin": 134,
+        "rangeNote": "134 K (-139 °C) at 1-bar pressure level",
+        "unit": "°C (1-bar level)",
+        "approx": true,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html"
+      },
+      "surfacePressureBars": {
+        "value": null,
+        "note": ">>1000 bars (No solid surface; gas giant)",
+        "unit": "bars",
+        "approx": true,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html"
+      },
+      "atmosphereComposition": [
+        {
+          "gas": "Molecular Hydrogen (H₂)",
+          "percentage": "96.3% (±2.4%)"
+        },
+        {
+          "gas": "Helium (He)",
+          "percentage": "3.25% (±2.4%)"
+        },
+        {
+          "gas": "Methane (CH₄) & Ammonia (NH₃)",
+          "percentage": "Trace (CH₄ 4500 ppm, NH₃ 125 ppm)"
+        }
+      ],
+      "knownMoonsCount": 274,
+      "featuredMoons": [
+        "titan",
+        "enceladus",
+        "rhea",
+        "iapetus"
+      ],
+      "ringSystem": true,
+      "ringDetails": {
+        "innerRadiusKm": 66900,
+        "outerMainRingsKm": 140220,
+        "divisions": [
+          {
+            "name": "D Ring",
+            "rangeKm": "66,900 – 74,510 km",
+            "notes": "Faint innermost ring composed of fine dust particles."
+          },
+          {
+            "name": "C Ring (Crepe Ring)",
+            "rangeKm": "74,658 – 92,000 km",
+            "notes": "Semi-transparent inner ring with moderate optical depth."
+          },
+          {
+            "name": "B Ring",
+            "rangeKm": "92,000 – 117,580 km",
+            "notes": "Brightest, most massive, and most opaque of Saturn's rings."
+          },
+          {
+            "name": "Cassini Division",
+            "rangeKm": "117,580 – 122,170 km",
+            "notes": "4,590 km gap sculpted by a 2:1 orbital resonance with moon Mimas."
+          },
+          {
+            "name": "A Ring",
+            "rangeKm": "122,170 – 136,775 km",
+            "notes": "Outer main bright ring containing the Encke and Keeler gaps."
+          },
+          {
+            "name": "F Ring",
+            "rangeKm": "140,220 km",
+            "notes": "Narrow, braided ring shepherded by moons Prometheus and Pandora."
+          }
+        ],
+        "composition": "99%+ water ice particles ranging from micrometers to meters in size, with trace silicate dust and tholins."
+      },
+      "magneticField": "Yes (0.18–0.84 Gauss at surface, closely aligned with rotation axis)",
+      "colorHex": "#ebd29c",
+      "texture": "./assets/textures/saturn.webp",
+      "ringTexture": "./assets/textures/saturn_rings.webp",
+      "facts": [
+        "Saturn has a mean density of just 687 kg/m³—less than liquid water (1,000 kg/m³)—making it the least dense planet in the Solar System.",
+        "Its spectacular main ring system spans from 66,900 km to 140,220 km from Saturn's center, yet is typically only 10 to 30 meters thick.",
+        "With 128 new satellites announced in March 2025, Saturn has 274 confirmed moons—more than any other planet in the Solar System.",
+        "Equatorial wind speeds in Saturn's upper atmosphere reach up to 400 m/s (1,440 km/h), and its north pole hosts a persistent hexagonal jet stream."
+      ]
+    },
+    {
+      "id": "uranus",
+      "name": "Uranus",
+      "classification": "Ice Giant Planet",
+      "category": "planet",
+      "orderFromSun": 7,
+      "diameterKm": {
+        "value": 51118,
+        "unit": "km",
+        "earthRatio": 4.007,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html"
+      },
+      "mass10_24Kg": {
+        "value": 86.81,
+        "unit": "10^24 kg",
+        "earthRatio": 14.536,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html"
+      },
+      "meanDistanceFromSunMkm": {
+        "value": 2867.0,
+        "unit": "10^6 km",
+        "au": 19.165,
+        "perihelionMkm": 2732.7,
+        "aphelionMkm": 3001.4,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 30589,
+        "unit": "days",
+        "earthRatio": 83.75,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html"
+      },
+      "orbitalVelocityKms": {
+        "value": 6.8,
+        "unit": "km/s",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html"
+      },
+      "rotationPeriodHours": {
+        "value": -17.2,
+        "unit": "hours",
+        "lengthOfDayHours": 17.2,
+        "retrograde": true,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html"
+      },
+      "axialTiltDeg": {
+        "value": 97.8,
+        "unit": "degrees",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html"
+      },
+      "orbitalInclinationDeg": {
+        "value": 0.8,
+        "unit": "degrees",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html"
+      },
+      "orbitalEccentricity": {
+        "value": 0.047,
+        "unit": "dimensionless",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html"
+      },
+      "gravityMs2": {
+        "value": 8.7,
+        "unit": "m/s² (eq., 1 bar)",
+        "earthRatio": 0.889,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html"
+      },
+      "escapeVelocityKms": {
+        "value": 21.3,
+        "unit": "km/s",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html"
+      },
+      "densityKgm3": {
+        "value": 1270,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html"
+      },
+      "temperatureC": {
+        "value": -195,
+        "kelvin": 76,
+        "rangeNote": "76 K (-197 °C) at 1-bar level; 53 K (-220 °C) at 0.1 bar",
+        "unit": "°C (1-bar level)",
+        "approx": true,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html"
+      },
+      "surfacePressureBars": {
+        "value": null,
+        "note": ">>1000 bars (Ice giant; fluid water-ammonia-methane mantle)",
+        "unit": "bars",
+        "approx": true,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html"
+      },
+      "atmosphereComposition": [
+        {
+          "gas": "Molecular Hydrogen (H₂)",
+          "percentage": "82.5% (±3.3%)"
+        },
+        {
+          "gas": "Helium (He)",
+          "percentage": "15.2% (±3.3%)"
+        },
+        {
+          "gas": "Methane (CH₄)",
+          "percentage": "2.3% (Absorbs red light, producing cyan-blue hue)"
+        }
+      ],
+      "knownMoonsCount": 28,
+      "featuredMoons": [
+        "miranda",
+        "ariel",
+        "umbriel",
+        "titania",
+        "oberon"
+      ],
+      "ringSystem": true,
+      "magneticField": "Yes (Tilted ~59° to rotation axis and offset from center)",
+      "colorHex": "#7de3f4",
+      "texture": "./assets/textures/uranus.webp",
+      "facts": [
+        "Uranus has an extreme axial tilt (obliquity) of 97.8°, meaning it essentially rolls on its side as it orbits the Sun every 84 Earth years.",
+        "Methane (2.3% by volume) in Uranus's upper atmosphere absorbs red wavelengths of sunlight and reflects blue-green light, giving the planet its pale cyan color.",
+        "Uranus has 28 confirmed moons named after characters from the works of William Shakespeare and Alexander Pope, along with 13 faint rings.",
+        "Despite being closer to the Sun than Neptune, Uranus has the coldest planetary atmosphere in the Solar System, reaching 53 K (-220 °C) at the 0.1-bar level."
+      ]
+    },
+    {
+      "id": "neptune",
+      "name": "Neptune",
+      "classification": "Ice Giant Planet",
+      "category": "planet",
+      "orderFromSun": 8,
+      "diameterKm": {
+        "value": 49528,
+        "unit": "km",
+        "earthRatio": 3.883,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html"
+      },
+      "mass10_24Kg": {
+        "value": 102.0,
+        "unit": "10^24 kg",
+        "earthRatio": 17.15,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html"
+      },
+      "meanDistanceFromSunMkm": {
+        "value": 4515.0,
+        "unit": "10^6 km",
+        "au": 30.181,
+        "perihelionMkm": 4471.1,
+        "aphelionMkm": 4558.9,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 59800,
+        "unit": "days",
+        "earthRatio": 163.7,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html"
+      },
+      "orbitalVelocityKms": {
+        "value": 5.4,
+        "unit": "km/s",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html"
+      },
+      "rotationPeriodHours": {
+        "value": 16.1,
+        "unit": "hours",
+        "lengthOfDayHours": 16.1,
+        "retrograde": false,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html"
+      },
+      "axialTiltDeg": {
+        "value": 28.3,
+        "unit": "degrees",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html"
+      },
+      "orbitalInclinationDeg": {
+        "value": 1.8,
+        "unit": "degrees",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html"
+      },
+      "orbitalEccentricity": {
+        "value": 0.01,
+        "unit": "dimensionless",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html"
+      },
+      "gravityMs2": {
+        "value": 11.0,
+        "unit": "m/s² (eq., 1 bar)",
+        "earthRatio": 1.12,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html"
+      },
+      "escapeVelocityKms": {
+        "value": 23.5,
+        "unit": "km/s",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html"
+      },
+      "densityKgm3": {
+        "value": 1638,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html"
+      },
+      "temperatureC": {
+        "value": -200,
+        "kelvin": 72,
+        "rangeNote": "72 K (-201 °C) at 1-bar level; 55 K (-218 °C) at 0.1 bar",
+        "unit": "°C (1-bar level)",
+        "approx": true,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html"
+      },
+      "surfacePressureBars": {
+        "value": null,
+        "note": ">>1000 bars (Ice giant)",
+        "unit": "bars",
+        "approx": true,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html"
+      },
+      "atmosphereComposition": [
+        {
+          "gas": "Molecular Hydrogen (H₂)",
+          "percentage": "80.0% (±3.2%)"
+        },
+        {
+          "gas": "Helium (He)",
+          "percentage": "19.0% (±3.2%)"
+        },
+        {
+          "gas": "Methane (CH₄)",
+          "percentage": "1.5% (±0.5%)"
+        }
+      ],
+      "knownMoonsCount": 16,
+      "featuredMoons": [
+        "triton"
+      ],
+      "ringSystem": true,
+      "magneticField": "Yes (Tilted ~47° to rotation axis)",
+      "colorHex": "#3b66f5",
+      "texture": "./assets/textures/neptune.webp",
+      "facts": [
+        "Neptune is the eighth and farthest known classical planet, orbiting at an average distance of 4,515 million km (30.18 AU) with a 163.7-year orbital period.",
+        "It was the first planet located through mathematical predictions (by Urbain Le Verrier and John Couch Adams) before being observed by Johann Galle in 1846.",
+        "Neptune's atmosphere sustains the fastest supersonic winds in the Solar System, reaching speeds up to 580 m/s (~2,088 km/h).",
+        "Its largest moon, Triton, is a Pluto-sized world that orbits in a retrograde direction, indicating it is likely a captured Kuiper Belt object."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "title": "PROJECT ATLAS — Scientific Sources, Provenance & Data Limitations",
+    "offlineCompliance": "100% Bundled Local Data. URLs are recorded strictly as bibliographic citations; zero network requests are made at runtime."
+  },
+  "sources": [
+    {
+      "id": "nasa-planetary-factsheet",
+      "title": "NASA NSSDCA Planetary Fact Sheet - Metric",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+      "usage": "Primary source for mass, diameter, density, gravity, escape velocity, rotation period, length of day, distance from Sun, perihelion, aphelion, orbital period, orbital velocity, inclination, eccentricity, obliquity, mean temperature, surface pressure, moon counts, ring systems, and global magnetic fields of Mercury through Pluto."
+    },
+    {
+      "id": "nasa-sun-factsheet",
+      "title": "NASA NSSDCA Sun Fact Sheet",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
+      "usage": "Primary source for solar mass, radius, density, surface gravity, luminosity, photospheric composition, rotation period, and effective temperature."
+    },
+    {
+      "id": "nasa-satellite-factsheets",
+      "title": "NASA NSSDCA Jovian, Saturnian, Uranian, Neptunian, Martian & Pluto Satellite Fact Sheets",
+      "author": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/planetfact.html",
+      "usage": "Primary source for radii, masses, mean densities, geometric albedos, semi-major axes, and orbital periods of Moon, Phobos, Deimos, Io, Europa, Ganymede, Callisto, Titan, Enceladus, Rhea, Iapetus, Miranda, Ariel, Umbriel, Titania, Oberon, Triton, and Charon."
+    },
+    {
+      "id": "nasa-dwarf-planets",
+      "title": "NASA Science — Pluto & Dwarf Planets (Ceres, Haumea, Makemake, Eris)",
+      "author": "NASA Science Editorial Team",
+      "url": "https://science.nasa.gov/dwarf-planets/",
+      "usage": "Primary source for diameters, distances in AU and km, orbital periods, rotation periods, and physical characteristics of Ceres, Haumea, Makemake, and Eris."
+    },
+    {
+      "id": "nasa-hubble-messier",
+      "title": "NASA Science — Hubble's Messier Catalog",
+      "author": "NASA / Goddard / STScI",
+      "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/",
+      "usage": "Primary source for distances (in light-years), apparent magnitudes, constellations, and physical descriptions of M1, M13, M16 (and Pillars of Creation), M31, M42, M45, M51, and M104."
+    },
+    {
+      "id": "nasa-solar-system-facts",
+      "title": "NASA Science — Solar System Facts",
+      "author": "NASA Science Editorial Team",
+      "url": "https://science.nasa.gov/solar-system/solar-system-facts/",
+      "usage": "Primary source for Main Asteroid Belt, Kuiper Belt, Termination Shock (80–100 AU), and Oort Cloud (5,000–100,000 AU) structure."
+    }
+  ],
+  "limitations": [
+    "Scale Compression: In Presentation Scale (Mode A), planetary radii and orbital distances are non-linearly compressed so all planets are simultaneously visible on a 32–40 inch projector screen. Relative Scientific Scale (Mode B) restores realistic diameter ratios and power-law/linear distance proportions with explicit mathematical disclosure.",
+    "Simplified Keplerian Orbits: Planetary positions are computed locally from J2000 mean orbital elements using two-body Keplerian equations. Mutual N-body planetary perturbations and relativistic precession are not modeled.",
+    "Deep Space & Oort Cloud Visualizations: The Oort Cloud, Milky Way spiral disk, and Messier nebulae/galaxies are stylized 3D procedural and particle representations grounded in verified distances and dimensions, not direct 3D measured meshes.",
+    "Space Missions: The 5 interactive missions use illustrative trajectories and accelerated educational travel times rather than full patched-conic Lambert solver flight plans."
+  ]
+}

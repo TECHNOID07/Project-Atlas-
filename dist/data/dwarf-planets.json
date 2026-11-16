@@ -1,0 +1,462 @@
+{
+  "metadata": {
+    "title": "PROJECT ATLAS — IAU Recognized Dwarf Planets Dataset",
+    "primarySource": "NASA Science Dwarf Planets & NSSDCA Pluto Fact Sheet",
+    "sourceUrl": "https://science.nasa.gov/dwarf-planets/",
+    "lastVerified": "2026-11-15"
+  },
+  "dwarfPlanets": [
+    {
+      "id": "ceres",
+      "name": "Ceres",
+      "classification": "Dwarf Planet (Main Asteroid Belt)",
+      "category": "dwarf-planet",
+      "region": "Main Asteroid Belt (between Mars and Jupiter)",
+      "diameterKm": {
+        "value": 952,
+        "equatorialKm": 964,
+        "radiusKm": 476,
+        "unit": "km",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/ceres/facts/"
+      },
+      "mass10_24Kg": {
+        "value": 0.000938,
+        "unit": "10^24 kg",
+        "note": "~1/14th the mass of Pluto; ~25% of total Asteroid Belt mass",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/ceres/facts/"
+      },
+      "meanDistanceFromSunMkm": {
+        "value": 413,
+        "unit": "10^6 km",
+        "au": 2.8,
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/ceres/facts/"
+      },
+      "orbitalPeriodDays": {
+        "value": 1682,
+        "years": 4.6,
+        "unit": "days",
+        "approx": false,
+        "source": "https://science.nasa.gov/dwarf-planets/ceres/facts/"
+      },
+      "rotationPeriodHours": {
+        "value": 9.0,
+        "unit": "hours",
+        "retrograde": false,
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/ceres/facts/"
+      },
+      "axialTiltDeg": {
+        "value": 4.0,
+        "unit": "degrees",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/ceres/facts/"
+      },
+      "orbitalInclinationDeg": {
+        "value": 10.6,
+        "unit": "degrees",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/ceres/facts/"
+      },
+      "orbitalEccentricity": {
+        "value": 0.076,
+        "unit": "dimensionless",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/ceres/facts/"
+      },
+      "gravityMs2": {
+        "value": null,
+        "note": "Unavailable in primary NASA summary; ~0.28 m/s² estimated",
+        "unit": "m/s²",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/ceres/facts/"
+      },
+      "temperatureC": {
+        "value": null,
+        "note": "Cold surface with permanent shadowed crater cold traps",
+        "unit": "°C",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/ceres/facts/"
+      },
+      "atmosphereComposition": [
+        {
+          "gas": "Thin Water Vapor (H₂O) Exosphere",
+          "percentage": "Produced by sublimating surface ice or cryovolcanic activity"
+        }
+      ],
+      "knownMoonsCount": 0,
+      "featuredMoons": [],
+      "ringSystem": false,
+      "colorHex": "#a39f98",
+      "texture": "./assets/textures/ceres.webp",
+      "facts": [
+        "Discovered by Giuseppe Piazzi in 1801, Ceres is the largest object in the main asteroid belt and the only dwarf planet in the inner Solar System.",
+        "NASA's Dawn spacecraft orbited Ceres in 2015, making it the first dwarf planet visited by a spacecraft.",
+        "Ceres's crust is rocky and dusty with bright magnesium sulfate salt deposits, and its mantle may contain up to 25% water ice."
+      ]
+    },
+    {
+      "id": "pluto",
+      "name": "Pluto",
+      "classification": "Dwarf Planet (Kuiper Belt / Plutoid)",
+      "category": "dwarf-planet",
+      "region": "Kuiper Belt",
+      "diameterKm": {
+        "value": 2376,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html"
+      },
+      "mass10_24Kg": {
+        "value": 0.013,
+        "unit": "10^24 kg",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html"
+      },
+      "meanDistanceFromSunMkm": {
+        "value": 5906.4,
+        "unit": "10^6 km",
+        "au": 39.48,
+        "perihelionMkm": 4436.8,
+        "aphelionMkm": 7375.9,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 90560,
+        "years": 247.9,
+        "unit": "days",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html"
+      },
+      "rotationPeriodHours": {
+        "value": -153.3,
+        "unit": "hours",
+        "retrograde": true,
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html"
+      },
+      "axialTiltDeg": {
+        "value": 119.5,
+        "unit": "degrees",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html"
+      },
+      "orbitalInclinationDeg": {
+        "value": 17.2,
+        "unit": "degrees",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html"
+      },
+      "orbitalEccentricity": {
+        "value": 0.244,
+        "unit": "dimensionless",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html"
+      },
+      "gravityMs2": {
+        "value": 0.6,
+        "unit": "m/s²",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html"
+      },
+      "temperatureC": {
+        "value": -225,
+        "kelvin": 48,
+        "rangeNote": "-247 to -233 °C (24–38 K) surface range",
+        "unit": "°C (Mean)",
+        "approx": true,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html"
+      },
+      "atmosphereComposition": [
+        {
+          "gas": "Nitrogen (N₂)",
+          "percentage": "99%"
+        },
+        {
+          "gas": "Methane (CH₄) & Carbon Monoxide (CO)",
+          "percentage": "CH₄ 0.5%, CO 0.05% (~13 microbar surface pressure)"
+        }
+      ],
+      "knownMoonsCount": 5,
+      "featuredMoons": [
+        "charon"
+      ],
+      "ringSystem": false,
+      "colorHex": "#d6b899",
+      "texture": "./assets/textures/pluto.webp",
+      "facts": [
+        "Discovered by Clyde Tombaugh in 1930 and explored up close by NASA's New Horizons in July 2015, Pluto is the largest dwarf planet by diameter (2,376 km).",
+        "Pluto has an elliptical (e = 0.244) and inclined (17.2°) 248-year orbit that periodically brings it closer to the Sun than Neptune.",
+        "Pluto and its largest moon Charon (diameter 1,212 km) are tidally locked to each other with a 6.3872-day period, often described as a double dwarf planet system."
+      ]
+    },
+    {
+      "id": "haumea",
+      "name": "Haumea",
+      "classification": "Dwarf Planet (Kuiper Belt / Plutoid)",
+      "category": "dwarf-planet",
+      "region": "Kuiper Belt",
+      "diameterKm": {
+        "value": 1740,
+        "unit": "km (Equatorial)",
+        "note": "Triaxial ellipsoid elongated by rapid 4-hour spin",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/haumea/"
+      },
+      "mass10_24Kg": {
+        "value": null,
+        "note": "Not listed in primary NASA overview page",
+        "unit": "10^24 kg",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/haumea/"
+      },
+      "meanDistanceFromSunMkm": {
+        "value": 6500,
+        "unit": "10^6 km",
+        "au": 43.0,
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/haumea/"
+      },
+      "orbitalPeriodDays": {
+        "value": 104096,
+        "years": 285,
+        "unit": "days",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/haumea/"
+      },
+      "rotationPeriodHours": {
+        "value": 4.0,
+        "unit": "hours",
+        "retrograde": false,
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/haumea/"
+      },
+      "axialTiltDeg": {
+        "value": null,
+        "unit": "degrees",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/haumea/"
+      },
+      "orbitalInclinationDeg": {
+        "value": 28.2,
+        "unit": "degrees",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/haumea/"
+      },
+      "orbitalEccentricity": {
+        "value": 0.195,
+        "unit": "dimensionless",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/haumea/"
+      },
+      "gravityMs2": {
+        "value": null,
+        "unit": "m/s²",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/haumea/"
+      },
+      "temperatureC": {
+        "value": null,
+        "note": "Extremely cold Kuiper Belt surface coated in crystalline water ice",
+        "unit": "°C",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/haumea/"
+      },
+      "atmosphereComposition": [
+        {
+          "gas": "Unknown / Negligible",
+          "percentage": "Very little is known about Haumea's atmosphere"
+        }
+      ],
+      "knownMoonsCount": 2,
+      "featuredMoons": [],
+      "ringSystem": true,
+      "colorHex": "#cfd8dc",
+      "texture": "./assets/textures/haumea.webp",
+      "facts": [
+        "Haumea completes one rotation every 4 hours, making it one of the fastest-rotating large objects in the Solar System and distorting its shape into an oval football.",
+        "In 2017, scientists discovered a narrow ring system around Haumea during a stellar occultation—the first Kuiper Belt object known to have rings.",
+        "Haumea has two known moons discovered in 2005, Hi'iaka (outer) and Namaka (inner), likely formed by an ancient giant collision."
+      ]
+    },
+    {
+      "id": "makemake",
+      "name": "Makemake",
+      "classification": "Dwarf Planet (Kuiper Belt / Plutoid)",
+      "category": "dwarf-planet",
+      "region": "Kuiper Belt",
+      "diameterKm": {
+        "value": 1430,
+        "unit": "km",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/makemake/"
+      },
+      "mass10_24Kg": {
+        "value": null,
+        "unit": "10^24 kg",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/makemake/"
+      },
+      "meanDistanceFromSunMkm": {
+        "value": 6800,
+        "unit": "10^6 km",
+        "au": 45.8,
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/makemake/"
+      },
+      "orbitalPeriodDays": {
+        "value": 111401,
+        "years": 305,
+        "unit": "days",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/makemake/"
+      },
+      "rotationPeriodHours": {
+        "value": 22.5,
+        "unit": "hours",
+        "retrograde": false,
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/makemake/"
+      },
+      "axialTiltDeg": {
+        "value": null,
+        "unit": "degrees",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/makemake/"
+      },
+      "orbitalInclinationDeg": {
+        "value": 29.0,
+        "unit": "degrees",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/makemake/"
+      },
+      "orbitalEccentricity": {
+        "value": 0.16,
+        "unit": "dimensionless",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/makemake/"
+      },
+      "gravityMs2": {
+        "value": null,
+        "unit": "m/s²",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/makemake/"
+      },
+      "temperatureC": {
+        "value": null,
+        "note": "Extremely cold reddish-brown icy surface",
+        "unit": "°C",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/makemake/"
+      },
+      "atmosphereComposition": [
+        {
+          "gas": "Transient Methane/Nitrogen Exosphere",
+          "percentage": "May develop a very thin atmosphere near perihelion"
+        }
+      ],
+      "knownMoonsCount": 1,
+      "featuredMoons": [],
+      "ringSystem": false,
+      "colorHex": "#c98b6b",
+      "texture": "./assets/textures/makemake.webp",
+      "facts": [
+        "Makemake is the second-brightest object in the Kuiper Belt after Pluto and orbits at an average distance of 45.8 AU (6.8 billion km), taking 305 Earth years per orbit.",
+        "Its rotation period of 22.5 hours is remarkably similar to the length of a day on Earth (24 hours) and Mars (24.6 hours).",
+        "Sunlight takes approximately 6 hours and 20 minutes to travel from the Sun to Makemake."
+      ]
+    },
+    {
+      "id": "eris",
+      "name": "Eris",
+      "classification": "Dwarf Planet (Scattered Disk / Plutoid)",
+      "category": "dwarf-planet",
+      "region": "Scattered Disk beyond Kuiper Belt",
+      "diameterKm": {
+        "value": 2326,
+        "unit": "km",
+        "note": "~2,326 to 2,400 km (~1/5th Earth's width)",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/eris/"
+      },
+      "mass10_24Kg": {
+        "value": null,
+        "note": "Determined via moon Dysnomia's 16-day orbit",
+        "unit": "10^24 kg",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/eris/"
+      },
+      "meanDistanceFromSunMkm": {
+        "value": 10000,
+        "unit": "10^6 km",
+        "au": 68.0,
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/eris/"
+      },
+      "orbitalPeriodDays": {
+        "value": 203444,
+        "years": 557,
+        "unit": "days",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/eris/"
+      },
+      "rotationPeriodHours": {
+        "value": 25.9,
+        "unit": "hours",
+        "retrograde": false,
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/eris/"
+      },
+      "axialTiltDeg": {
+        "value": null,
+        "unit": "degrees",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/eris/"
+      },
+      "orbitalInclinationDeg": {
+        "value": 44.0,
+        "unit": "degrees",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/eris/"
+      },
+      "orbitalEccentricity": {
+        "value": 0.44,
+        "unit": "dimensionless",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/eris/"
+      },
+      "gravityMs2": {
+        "value": null,
+        "unit": "m/s²",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/eris/"
+      },
+      "temperatureC": {
+        "value": -230,
+        "rangeNote": "-217 °C to -243 °C (-359 °F to -405 °F)",
+        "unit": "°C (Approx)",
+        "approx": true,
+        "source": "https://science.nasa.gov/dwarf-planets/eris/"
+      },
+      "atmosphereComposition": [
+        {
+          "gas": "Frozen Methane/Nitrogen Surface Ice",
+          "percentage": "Atmosphere collapses and freezes as snow when far from the Sun, thawing near perihelion"
+        }
+      ],
+      "knownMoonsCount": 1,
+      "featuredMoons": [],
+      "ringSystem": false,
+      "colorHex": "#e2e6ec",
+      "texture": "./assets/textures/eris.webp",
+      "facts": [
+        "Eris's discovery in 2005 by Mike Brown, Chad Trujillo, and David Rabinowitz triggered the 2006 IAU debate that established the 'dwarf planet' classification.",
+        "Orbiting at an average distance of 68 AU (~10 billion km), Eris takes 557 Earth years to complete one orbit, and sunlight takes more than 9 hours to reach it.",
+        "Eris has one small moon, Dysnomia, which completes a nearly circular orbit around Eris every ~16 days."
+      ]
+    }
+  ]
+}

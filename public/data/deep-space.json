@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "title": "PROJECT ATLAS — Deep Space & Galactic Catalogue",
+    "primarySource": "NASA Science Hubble Messier Catalog & Galactic Structure Reference",
+    "sourceUrl": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/",
+    "disclaimer": "3D representations of nebulae, star clusters, and galaxies are artistic volumetric/particle visualizations grounded in verified astronomical distances, magnitudes, and dimensions, not direct 3D laser-scanned meshes."
+  },
+  "milkyWay": {
+    "id": "milky-way",
+    "name": "Milky Way Galaxy",
+    "type": "Barred Spiral Galaxy (SBbc)",
+    "diameterLightYears": {
+      "value": 100000,
+      "unit": "light-years",
+      "approx": true
+    },
+    "solarSystemDistanceFromCenterLy": {
+      "value": 26000,
+      "unit": "light-years",
+      "note": "Located in the Orion-Cygnus Arm (Local Spur)",
+      "approx": true
+    },
+    "centralObject": "Sagittarius A* (Supermassive Black Hole at Galactic Center)",
+    "estimatedStars": "100 – 400 billion stars",
+    "description": "Our home galaxy is a barred spiral disk roughly 100,000 light-years across. The Solar System orbits the Galactic Center at ~26,000 light-years radius inside the Orion Spur, completing one galactic revolution every ~225–250 million years."
+  },
+  "objects": [
+    {
+      "id": "m31-andromeda",
+      "catalogId": "Messier 31 (M31 / NGC 224)",
+      "name": "Andromeda Galaxy",
+      "type": "Spiral Galaxy",
+      "constellation": "Andromeda",
+      "distanceLy": {
+        "value": 2500000,
+        "display": "2.5 million light-years",
+        "approx": true,
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-31/"
+      },
+      "apparentMagnitude": 3.4,
+      "dimensions": "~152,000 – 220,000 light-years across (Apparent angular size 6x full Moon)",
+      "colorHex": "#a3c9ff",
+      "visualStyle": "spiral-galaxy",
+      "representationNote": "Artistic 3D spiral particle & volumetric disk representation",
+      "description": "Our nearest major galactic neighbor at 2.5 million light-years away. Hubble's panoramic mosaic resolved over 100 million stars and thousands of star clusters across its pancake-shaped spiral disk."
+    },
+    {
+      "id": "m42-orion",
+      "catalogId": "Messier 42 (M42 / NGC 1976)",
+      "name": "Orion Nebula",
+      "type": "Diffuse Emission & Reflection Nebula (Stellar Nursery)",
+      "constellation": "Orion",
+      "distanceLy": {
+        "value": 1500,
+        "display": "1,500 light-years",
+        "approx": true,
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-42/"
+      },
+      "apparentMagnitude": 4.0,
+      "dimensions": "~24 light-years across",
+      "colorHex": "#ff6ec7",
+      "visualStyle": "emission-nebula",
+      "representationNote": "Artistic 3D multi-layered volumetric nebula cloud & Trapezium star cluster",
+      "description": "The closest large star-forming region to Earth (1,500 light-years), visible to the unaided eye below Orion's Belt. Its central cavity is illuminated by four massive young stars called the Trapezium cluster, and Hubble revealed numerous edge-on protoplanetary disks."
+    },
+    {
+      "id": "m1-crab",
+      "catalogId": "Messier 1 (M1 / NGC 1952)",
+      "name": "Crab Nebula",
+      "type": "Supernova Remnant & Pulsar Wind Nebula",
+      "constellation": "Taurus",
+      "distanceLy": {
+        "value": 6500,
+        "display": "6,500 light-years",
+        "approx": true,
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-1/"
+      },
+      "apparentMagnitude": 8.4,
+      "dimensions": "~11 light-years across",
+      "colorHex": "#38f3ff",
+      "visualStyle": "supernova-remnant",
+      "representationNote": "Artistic 3D filamentary shell & central pulsar jet visualization",
+      "description": "The expanding remnant of a bright supernova recorded by astronomers in 1054 AD, located 6,500 light-years away in Taurus. Charles Messier originally mistook it for Halley's Comet, inspiring him to compile his famous catalog."
+    },
+    {
+      "id": "m16-eagle",
+      "catalogId": "Messier 16 (M16 / NGC 6611)",
+      "name": "Eagle Nebula",
+      "type": "Emission Nebula (H II Region) & Open Cluster",
+      "constellation": "Serpens",
+      "distanceLy": {
+        "value": 7000,
+        "display": "7,000 light-years",
+        "approx": true,
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-16/"
+      },
+      "apparentMagnitude": 6.0,
+      "dimensions": "~70 × 55 light-years",
+      "colorHex": "#ff9e5e",
+      "visualStyle": "pillar-nebula",
+      "representationNote": "Artistic 3D star-forming cavity & ionized gas visualization",
+      "description": "An active star-forming emission nebula 7,000 light-years away in Serpens, where ultraviolet radiation from hot newborn stars is sculpting and eroding surrounding cold molecular gas clouds."
+    },
+    {
+      "id": "pillars-of-creation",
+      "catalogId": "M16 Interior Structure",
+      "name": "Pillars of Creation",
+      "type": "Star-Forming Molecular Gas & Dust Columns (within Eagle Nebula)",
+      "constellation": "Serpens",
+      "distanceLy": {
+        "value": 7000,
+        "display": "7,000 light-years",
+        "approx": true,
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-16/"
+      },
+      "apparentMagnitude": 6.0,
+      "dimensions": "Spire height ~4–5 light-years (adjacent M16 spire stretches 9.5 light-years)",
+      "colorHex": "#d49a45",
+      "visualStyle": "pillars",
+      "representationNote": "Artistic 3D volumetric columns with embedded protostars",
+      "description": "Iconic towering columns of cold interstellar hydrogen gas and dust inside Messier 16 (Eagle Nebula), imaged by Hubble and Webb in visible and infrared light to reveal infant stars forming within the pillars."
+    },
+    {
+      "id": "m45-pleiades",
+      "catalogId": "Messier 45 (M45)",
+      "name": "Pleiades (Seven Sisters)",
+      "type": "Open Star Cluster with Reflection Nebulosity",
+      "constellation": "Taurus",
+      "distanceLy": {
+        "value": 445,
+        "display": "445 light-years",
+        "approx": true,
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-45/"
+      },
+      "apparentMagnitude": 1.6,
+      "dimensions": "~17 light-years core diameter",
+      "colorHex": "#4db8ff",
+      "visualStyle": "open-cluster",
+      "representationNote": "Artistic 3D hot B-type blue star cluster & wisps of reflection dust",
+      "description": "One of the nearest and brightest open star clusters at 445 light-years from Earth in Taurus, containing over 1,000 young stars illuminated by blue reflection nebulosity."
+    },
+    {
+      "id": "m51-whirlpool",
+      "catalogId": "Messier 51 (M51 / NGC 5194 & NGC 5195)",
+      "name": "Whirlpool Galaxy",
+      "type": "Grand-Design Spiral Galaxy + Interacting Companion",
+      "constellation": "Canes Venatici",
+      "distanceLy": {
+        "value": 31000000,
+        "display": "31 million light-years",
+        "approx": true,
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-51/"
+      },
+      "apparentMagnitude": 8.4,
+      "dimensions": "~60,000 – 76,000 light-years across",
+      "colorHex": "#8aa8ff",
+      "visualStyle": "interacting-galaxy",
+      "representationNote": "Artistic 3D grand-design spiral arms with companion galaxy NGC 5195",
+      "description": "Located 31 million light-years away, Messier 51's sweeping spiral arms act as star-forming factories compressed by the gravitational pull of its smaller yellowish companion galaxy, NGC 5195."
+    },
+    {
+      "id": "m104-sombrero",
+      "catalogId": "Messier 104 (M104 / NGC 4594)",
+      "name": "Sombrero Galaxy",
+      "type": "Unbarred Spiral / Lenticular Galaxy with Prominent Dust Lane",
+      "constellation": "Virgo",
+      "distanceLy": {
+        "value": 28000000,
+        "display": "28 million light-years (28–30 Mly across Hubble/Webb studies)",
+        "approx": true,
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-104/"
+      },
+      "apparentMagnitude": 8.0,
+      "dimensions": "~52,000 – 82,000 light-years across (RA 12h 39m 59.42s, Dec -11° 37' 23.0\")",
+      "colorHex": "#ffe0a3",
+      "visualStyle": "sombrero-galaxy",
+      "representationNote": "Artistic 3D luminous central bulge & nearly edge-on dark dust ring",
+      "description": "Located 28 million light-years away in Virgo, M104 features a brilliant white bulbous core encircled by thick, nearly edge-on dark dust lanes and a rich system of globular clusters."
+    },
+    {
+      "id": "m13-hercules",
+      "catalogId": "Messier 13 (M13 / NGC 6205)",
+      "name": "Hercules Globular Cluster",
+      "type": "Globular Star Cluster",
+      "constellation": "Hercules",
+      "distanceLy": {
+        "value": 25000,
+        "display": "25,000 light-years",
+        "approx": true,
+        "source": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-13/"
+      },
+      "apparentMagnitude": 5.8,
+      "dimensions": "~145 light-years across",
+      "colorHex": "#fff2cc",
+      "visualStyle": "globular-cluster",
+      "representationNote": "Artistic 3D dense spherical star cluster particle representation",
+      "description": "Discovered by Edmond Halley in 1714, M13 is one of the brightest globular star clusters in the Northern Hemisphere, packing over 100,000 ancient stars into a sphere 25,000 light-years from Earth."
+    }
+  ]
+}

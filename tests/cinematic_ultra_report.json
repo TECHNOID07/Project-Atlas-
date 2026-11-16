@@ -1,0 +1,120 @@
+{
+  "passed": 19,
+  "failed": 0,
+  "results": [
+    {
+      "id": 1,
+      "name": "Cinematic Mode activates via \u25c9 CINEMATIC VIEW toolbar button",
+      "status": "PASS",
+      "detail": "Button '\u25c9 CINEMATIC VIEW' sets body.cinematic-mode and hides #top-bar, #left-panel, #right-panel, #bottom-bar, #labels-layer, #demo-banner, and #hover-tooltip."
+    },
+    {
+      "id": 2,
+      "name": "Keyboard shortcut H hides the complete interface",
+      "status": "PASS",
+      "detail": "Pressing H enters unobstructed cinematic-mode."
+    },
+    {
+      "id": 3,
+      "name": "Keyboard shortcut H restores the complete interface",
+      "status": "PASS",
+      "detail": "Pressing H again cleanly exits cinematic-mode and restores all HUD panels."
+    },
+    {
+      "id": 4,
+      "name": "Escape key restores interface with safe modal priority",
+      "status": "PASS",
+      "detail": "Escape closes open modal first if present, and restores the interface from cinematic mode."
+    },
+    {
+      "id": 5,
+      "name": "Floating SHOW INTERFACE control (reveal, 2.5s auto-fade, click restore, canvas isolation)",
+      "status": "PASS",
+      "detail": "Revealed on mousemove=True, canvas click isolated=True, auto-faded after 2.5s=True, restored on click=True."
+    },
+    {
+      "id": 6,
+      "name": "3D canvas and orbital simulation continue running in Cinematic Mode",
+      "status": "PASS",
+      "detail": "Simulation time and planetary rotation advance normally (468 WebGL draw calls per frame)."
+    },
+    {
+      "id": 7,
+      "name": "Camera orbit, zoom, and free-flight remain active in Cinematic Mode",
+      "status": "PASS",
+      "detail": "OrbitControls and WASD navigation operate seamlessly with HUD hidden."
+    },
+    {
+      "id": 8,
+      "name": "Fullscreen and Cinematic Mode operate independently",
+      "status": "PASS",
+      "detail": "Toggling fullscreen preserves cinematicMode state independently."
+    },
+    {
+      "id": 9,
+      "name": "All 9 original application modes preserved and functional",
+      "status": "PASS",
+      "detail": "Verified HOME, SOLAR_SYSTEM, PLANETS, MOONS, DEEP_SPACE, MISSIONS, LABORATORY, KNOWLEDGE, and SETTINGS."
+    },
+    {
+      "id": 10,
+      "name": "All original keyboard shortcuts (Space, R, F, 1\u20135, Esc) preserved",
+      "status": "PASS",
+      "detail": "Verified Space play/pause, 1\u20135 view presets, and R camera reset."
+    },
+    {
+      "id": 11,
+      "name": "Sun granulation/corona/prominences & Earth cloud layer/night-lights/Fresnel rim",
+      "status": "PASS",
+      "detail": "Sun: chromosphere + 3 corona shells + 4 plasma prominence arches; Earth: independent cloud sphere + night-side city lights + Fresnel rim."
+    },
+    {
+      "id": 12,
+      "name": "Saturn multi-layered high-resolution ring system",
+      "status": "PASS",
+      "detail": "Saturn has 2 ring mesh layers with 512px radial division/ringlet texture (D, C, B, Cassini, A, Encke, Keeler, F)."
+    },
+    {
+      "id": 13,
+      "name": "Multi-layer spectral starfield with scintillation & shooting stars",
+      "status": "PASS",
+      "detail": "3 spectral depth/twinkle star layers + subtle background shooting star."
+    },
+    {
+      "id": 14,
+      "name": "Moon & Deep Space morphological visual upgrades",
+      "status": "PASS",
+      "detail": "Custom procedural textures for all 18 moons, Titan orange haze shell, and morphological 3D structures for Milky Way, Andromeda, Pillars of Creation, Crab, and Orion."
+    },
+    {
+      "id": 15,
+      "name": "Adaptive LOW, MEDIUM, and HIGH graphics presets",
+      "status": "PASS",
+      "detail": "LOW (256px tex, 1600 stars), MEDIUM (512px tex, 3800 stars), HIGH (1024px tex, 6800 stars)."
+    },
+    {
+      "id": 16,
+      "name": "Zero JavaScript console errors",
+      "status": "PASS",
+      "detail": "Severe console errors: 0"
+    },
+    {
+      "id": 17,
+      "name": "Zero WebGL rendering errors",
+      "status": "PASS",
+      "detail": "gl.getError() = 0 (NO_ERROR)"
+    },
+    {
+      "id": 18,
+      "name": "Laptop-friendly memory & triangle budget (HP ProBook 640 safe)",
+      "status": "PASS",
+      "detail": "Triangles: 131388, Draw calls: 768, JS Heap: 12 MB"
+    },
+    {
+      "id": 19,
+      "name": "100% Offline \u2014 Zero external runtime network requests",
+      "status": "PASS",
+      "detail": "External network requests: 0"
+    }
+  ]
+}

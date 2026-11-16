@@ -1,0 +1,486 @@
+{
+  "metadata": {
+    "title": "PROJECT ATLAS — Selected Celestial Constellations",
+    "primarySource": "IAU / NASA Skywatching Reference",
+    "sourceUrl": "https://science.nasa.gov/universe/glossary/"
+  },
+  "constellations": [
+    {
+      "id": "orion",
+      "name": "Orion (The Hunter)",
+      "hemisphere": "Equatorial (Visible globally)",
+      "brightestStar": "Rigel (Beta Orionis) & Betelgeuse (Alpha Orionis)",
+      "notableObjects": [
+        "Messier 42 (Orion Nebula)",
+        "Trapezium Cluster",
+        "Orion's Belt (Alnitak, Alnilam, Mintaka)"
+      ],
+      "stars": [
+        {
+          "name": "Betelgeuse",
+          "pos": [
+            -18,
+            22,
+            -90
+          ],
+          "color": "#ff8844",
+          "mag": 0.5
+        },
+        {
+          "name": "Bellatrix",
+          "pos": [
+            14,
+            18,
+            -90
+          ],
+          "color": "#aaccff",
+          "mag": 1.6
+        },
+        {
+          "name": "Alnitak",
+          "pos": [
+            -6,
+            0,
+            -90
+          ],
+          "color": "#99ccff",
+          "mag": 1.7
+        },
+        {
+          "name": "Alnilam",
+          "pos": [
+            0,
+            2,
+            -90
+          ],
+          "color": "#99ccff",
+          "mag": 1.7
+        },
+        {
+          "name": "Mintaka",
+          "pos": [
+            6,
+            4,
+            -90
+          ],
+          "color": "#99ccff",
+          "mag": 2.2
+        },
+        {
+          "name": "Saiph",
+          "pos": [
+            -14,
+            -22,
+            -90
+          ],
+          "color": "#aaccff",
+          "mag": 2.1
+        },
+        {
+          "name": "Rigel",
+          "pos": [
+            16,
+            -20,
+            -90
+          ],
+          "color": "#88bbff",
+          "mag": 0.1
+        }
+      ],
+      "lines": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "description": "One of the most recognizable constellations in the night sky, straddling the celestial equator and hosting the red supergiant Betelgeuse, blue supergiant Rigel, and the Orion Nebula (M42)."
+    },
+    {
+      "id": "ursa-major",
+      "name": "Ursa Major (The Great Bear / Big Dipper)",
+      "hemisphere": "Northern Celestial Hemisphere",
+      "brightestStar": "Alioth (Epsilon Ursae Majoris) & Dubhe (Alpha Ursae Majoris)",
+      "notableObjects": [
+        "M81 & M82 Galaxies",
+        "Mizar & Alcor double star",
+        "Pointer stars Dubhe & Merak toward Polaris"
+      ],
+      "stars": [
+        {
+          "name": "Dubhe",
+          "pos": [
+            -25,
+            45,
+            70
+          ],
+          "color": "#ffd288",
+          "mag": 1.8
+        },
+        {
+          "name": "Merak",
+          "pos": [
+            -22,
+            33,
+            70
+          ],
+          "color": "#ffffff",
+          "mag": 2.4
+        },
+        {
+          "name": "Phecda",
+          "pos": [
+            -8,
+            30,
+            70
+          ],
+          "color": "#ffffff",
+          "mag": 2.4
+        },
+        {
+          "name": "Megrez",
+          "pos": [
+            -6,
+            40,
+            70
+          ],
+          "color": "#ffffff",
+          "mag": 3.3
+        },
+        {
+          "name": "Alioth",
+          "pos": [
+            6,
+            42,
+            70
+          ],
+          "color": "#ffffff",
+          "mag": 1.8
+        },
+        {
+          "name": "Mizar",
+          "pos": [
+            18,
+            44,
+            70
+          ],
+          "color": "#ffffff",
+          "mag": 2.2
+        },
+        {
+          "name": "Alkaid",
+          "pos": [
+            30,
+            36,
+            70
+          ],
+          "color": "#99ccff",
+          "mag": 1.9
+        }
+      ],
+      "lines": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "description": "Contains the famous seven-star Big Dipper asterism, whose outer bowl stars (Dubhe and Merak) point directly toward Polaris, the North Star."
+    },
+    {
+      "id": "cassiopeia",
+      "name": "Cassiopeia (The Queen)",
+      "hemisphere": "Northern Celestial Hemisphere",
+      "brightestStar": "Schedar (Alpha Cassiopeiae)",
+      "notableObjects": [
+        "Cassiopeia A Supernova Remnant",
+        "Messier 52 Open Cluster"
+      ],
+      "stars": [
+        {
+          "name": "Caph",
+          "pos": [
+            45,
+            52,
+            50
+          ],
+          "color": "#fff4d6",
+          "mag": 2.3
+        },
+        {
+          "name": "Schedar",
+          "pos": [
+            55,
+            44,
+            50
+          ],
+          "color": "#ffbb66",
+          "mag": 2.2
+        },
+        {
+          "name": "Gamma Cas",
+          "pos": [
+            65,
+            50,
+            50
+          ],
+          "color": "#88ccff",
+          "mag": 2.5
+        },
+        {
+          "name": "Ruchbah",
+          "pos": [
+            75,
+            42,
+            50
+          ],
+          "color": "#ffffff",
+          "mag": 2.7
+        },
+        {
+          "name": "Segin",
+          "pos": [
+            85,
+            52,
+            50
+          ],
+          "color": "#99ccff",
+          "mag": 3.4
+        }
+      ],
+      "lines": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "description": "Famous for its distinctive 'W' or 'M' asterism of five bright stars in the northern Milky Way."
+    },
+    {
+      "id": "scorpius",
+      "name": "Scorpius (The Scorpion)",
+      "hemisphere": "Southern Celestial Hemisphere",
+      "brightestStar": "Antares (Alpha Scorpii)",
+      "notableObjects": [
+        "Antares (Red Supergiant)",
+        "Messier 4 Globular Cluster",
+        "Messier 7 Open Cluster"
+      ],
+      "stars": [
+        {
+          "name": "Graffias",
+          "pos": [
+            -65,
+            -10,
+            -40
+          ],
+          "color": "#99ccff",
+          "mag": 2.6
+        },
+        {
+          "name": "Dschubba",
+          "pos": [
+            -68,
+            -16,
+            -40
+          ],
+          "color": "#99ccff",
+          "mag": 2.3
+        },
+        {
+          "name": "Antares",
+          "pos": [
+            -55,
+            -22,
+            -40
+          ],
+          "color": "#ff5533",
+          "mag": 1.0
+        },
+        {
+          "name": "Sargas",
+          "pos": [
+            -42,
+            -42,
+            -40
+          ],
+          "color": "#fff0cc",
+          "mag": 1.9
+        },
+        {
+          "name": "Shaula",
+          "pos": [
+            -32,
+            -36,
+            -40
+          ],
+          "color": "#88bbff",
+          "mag": 1.6
+        }
+      ],
+      "lines": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "description": "A prominent zodiac constellation near the center of the Milky Way, anchored by the brilliant red supergiant star Antares."
+    },
+    {
+      "id": "cygnus",
+      "name": "Cygnus (The Swan / Northern Cross)",
+      "hemisphere": "Northern Celestial Hemisphere",
+      "brightestStar": "Deneb (Alpha Cygni)",
+      "notableObjects": [
+        "Deneb (Summer Triangle vertex)",
+        "Albireo binary star",
+        "Cygnus X-1"
+      ],
+      "stars": [
+        {
+          "name": "Deneb",
+          "pos": [
+            60,
+            28,
+            -55
+          ],
+          "color": "#d6ecff",
+          "mag": 1.25
+        },
+        {
+          "name": "Sadr",
+          "pos": [
+            50,
+            18,
+            -55
+          ],
+          "color": "#fff5cc",
+          "mag": 2.2
+        },
+        {
+          "name": "Albireo",
+          "pos": [
+            35,
+            3,
+            -55
+          ],
+          "color": "#ffbb66",
+          "mag": 3.1
+        },
+        {
+          "name": "Gienah",
+          "pos": [
+            42,
+            26,
+            -55
+          ],
+          "color": "#ffcc77",
+          "mag": 2.5
+        },
+        {
+          "name": "Delta Cygni",
+          "pos": [
+            58,
+            10,
+            -55
+          ],
+          "color": "#cce6ff",
+          "mag": 2.9
+        }
+      ],
+      "lines": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "description": "Soars along the plane of the Milky Way and forms the Northern Cross; its tail star Deneb is one of the most luminous supergiants known."
+    }
+  ]
+}

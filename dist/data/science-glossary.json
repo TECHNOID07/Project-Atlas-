@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "title": "PROJECT ATLAS — Astronomy Glossary & Curated Q&A Knowledge Base",
+    "primarySource": "NASA Science Universe Glossary & Planetary Fact Sheet Notes",
+    "sourceUrl": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/planetfact_notes.html"
+  },
+  "terms": [
+    {
+      "term": "Astronomical Unit (AU)",
+      "category": "Units & Measurement",
+      "definition": "The mean distance between the Earth and the Sun, approximately 149.598 million kilometers (93 million miles). Used as the standard yardstick for distances within the Solar System."
+    },
+    {
+      "term": "Light-Year (ly)",
+      "category": "Units & Measurement",
+      "definition": "The distance light travels in a vacuum in one Julian year (~63,241 AU or ~9.46 trillion kilometers). Used to measure interstellar and intergalactic distances."
+    },
+    {
+      "term": "Keplerian Orbit & Eccentricity",
+      "category": "Orbital Mechanics",
+      "definition": "Planets orbit the Sun in ellipses with the Sun at one focus (Kepler's First Law). Orbital eccentricity (e) measures how stretched the ellipse is: 0 is a perfect circle (Venus is 0.0068), while values closer to 1 are highly elongated (Mercury is 0.2056, Pluto is 0.244)."
+    },
+    {
+      "term": "Obliquity to Orbit (Axial Tilt)",
+      "category": "Planetary Physics",
+      "definition": "The angle between a planet's rotational axis and the perpendicular to its orbital plane. Earth's 23.44° tilt causes seasons; Uranus's 97.8° tilt puts it on its side; Venus's 177.36° tilt means it rotates retrograde."
+    },
+    {
+      "term": "Sidereal vs. Solar Day",
+      "category": "Planetary Physics",
+      "definition": "Sidereal rotation period is the time a planet takes to rotate 360° relative to the fixed background stars (Earth: 23.9345 hours). Length of day (solar day) is the time between successive noons relative to the Sun (Earth: 24.0000 hours; Mercury: 4,222.6 hours)."
+    },
+    {
+      "term": "Terrestrial Planets",
+      "category": "Planetary Classification",
+      "definition": "Rocky worlds with solid surfaces and metallic cores in the inner Solar System: Mercury, Venus, Earth, and Mars."
+    },
+    {
+      "term": "Gas Giants & Ice Giants",
+      "category": "Planetary Classification",
+      "definition": "Jupiter and Saturn are Gas Giants composed predominantly of hydrogen and helium. Uranus and Neptune are Ice Giants with mantles rich in heavier 'ices' (water, ammonia, and methane) beneath hydrogen-helium atmospheres."
+    },
+    {
+      "term": "Dwarf Planet",
+      "category": "Planetary Classification",
+      "definition": "Defined by the IAU in 2006 as a celestial body that orbits the Sun and has enough mass for self-gravity to pull it into a nearly round shape, but has not cleared its orbital neighborhood of other debris. The five IAU-recognized dwarf planets are Ceres, Pluto, Haumea, Makemake, and Eris."
+    },
+    {
+      "term": "Roche Limit & Planetary Rings",
+      "category": "Planetary Physics",
+      "definition": "The minimum distance to which a celestial body, held together only by its own gravity, can approach a second body without being torn apart by tidal forces. Saturn's main rings lie inside or near its Roche limit and consist of 99%+ water-ice particles."
+    },
+    {
+      "term": "Escape Velocity",
+      "category": "Planetary Physics",
+      "definition": "The minimum initial velocity needed at a body's surface (or 1-bar level for gas giants) to escape its gravitational pull without further propulsion (Earth: 11.2 km/s; Jupiter: 59.5 km/s; Sun: 617.6 km/s)."
+    },
+    {
+      "term": "Termination Shock & Heliosphere",
+      "category": "Heliophysics",
+      "definition": "The heliosphere is the magnetic bubble inflated by the solar wind. The termination shock (at 80–100 AU, crossed by Voyager 1 in 2004 and Voyager 2 in 2007) is where the solar wind slows abruptly due to interstellar gas pressure."
+    },
+    {
+      "term": "Messier Catalog",
+      "category": "Deep Space",
+      "definition": "A catalog of 110 nebulae, star clusters, and galaxies compiled by 18th-century French comet hunter Charles Messier (and later expanded) to distinguish fixed deep-sky objects from moving comets."
+    }
+  ],
+  "predefinedQA": [
+    {
+      "question": "How big is Jupiter compared to Earth?",
+      "keywords": [
+        "how big is jupiter",
+        "jupiter compared to earth",
+        "jupiter size",
+        "biggest planet"
+      ],
+      "answer": "According to the NASA Planetary Fact Sheet, Jupiter has an equatorial diameter of 142,984 km compared to Earth's 12,756 km—making Jupiter 11.209 times wider than Earth (volumetric mean radius ratio 10.973x). In volume, 1,321 Earths could fit inside Jupiter, and Jupiter's mass (1,898.13 × 10²⁴ kg) is 317.83 times Earth's mass."
+    },
+    {
+      "question": "Which planet has the longest year?",
+      "keywords": [
+        "longest year",
+        "longest orbital period",
+        "slowest orbit",
+        "furthest planet year"
+      ],
+      "answer": "Among the eight classical planets, Neptune has the longest year (orbital period) at 59,800 Earth days (~163.7 Earth years) at a mean distance of 4,515 million km (30.18 AU). Including the five recognized dwarf planets, Eris has the longest orbital period at ~203,444 days (557 Earth years) at an average distance of 68 AU."
+    },
+    {
+      "question": "Which planet has the shortest day?",
+      "keywords": [
+        "shortest day",
+        "fastest rotation",
+        "fastest spinning planet"
+      ],
+      "answer": "Among the eight classical planets, Jupiter has the shortest day, completing one sidereal rotation in just 9.925 hours (followed closely by Saturn at 10.656 hours). Among the dwarf planets, Haumea rotates even faster, completing a rotation every 4.0 hours."
+    },
+    {
+      "question": "Show me Saturn's moons.",
+      "keywords": [
+        "saturn's moons",
+        "saturn moons",
+        "moons of saturn",
+        "titan",
+        "enceladus"
+      ],
+      "answer": "Saturn has 274 confirmed moons (per NASA NSSDCA, March 2025 update)—the highest moon count of any planet. In ATLAS, four major Saturnian moons are featured in detail: Titan (diameter 5,150 km, thick nitrogen-methane atmosphere and hydrocarbon seas), Enceladus (diameter 504 km, icy cryovolcanic plumes and subsurface ocean), Rhea (diameter 1,528 km), and Iapetus (diameter 1,470 km, two-tone hemisphere albedo and equatorial ridge)."
+    },
+    {
+      "question": "Compare Earth and Mars.",
+      "keywords": [
+        "compare earth and mars",
+        "earth vs mars",
+        "earth and mars"
+      ],
+      "answer": "Earth vs. Mars (NASA NSSDCA Metric Fact Sheet): Diameter: Earth 12,756 km vs. Mars 6,792 km (Mars is 0.532x Earth's width). Mass: Earth 5.9722 × 10²⁴ kg vs. Mars 0.64169 × 10²⁴ kg (0.107x Earth). Mean Distance from Sun: Earth 149.6M km (1.0 AU) vs. Mars 228.0M km (1.524 AU). Orbital Period: Earth 365.256 days vs. Mars 686.980 days. Length of Day: Earth 24.0 hrs vs. Mars 24.66 hrs. Surface Gravity: Earth 9.8 m/s² vs. Mars 3.7 m/s². Mean Temperature: Earth 15 °C vs. Mars -65 °C. Moons: Earth has 1 (Moon); Mars has 2 (Phobos and Deimos)."
+    },
+    {
+      "question": "Why does Saturn have rings?",
+      "keywords": [
+        "why does saturn have rings",
+        "saturn rings",
+        "what are saturn's rings made of"
+      ],
+      "answer": "Saturn's rings consist of 99%+ water-ice particles (ranging from microscopic grains to boulder-sized chunks) with trace rocky dust, orbiting inside or near Saturn's Roche limit where tidal forces prevent them from coalescing into a single moon. They likely formed when an icy moon, comet, or large planetesimal was shattered by tidal forces or a collision. The main rings (D, C, B, A, and F) extend from 66,900 km to 140,220 km from Saturn's center, with the 4,590-km Cassini Division sculpted by a 2:1 orbital resonance with the moon Mimas."
+    },
+    {
+      "question": "Why is Venus hotter than Mercury?",
+      "keywords": [
+        "hottest planet",
+        "why is venus hotter",
+        "venus temperature",
+        "mercury vs venus temperature"
+      ],
+      "answer": "Even though Mercury is closer to the Sun (mean temperature 167 °C), Venus is the hottest planet in the Solar System with a mean surface temperature of 464 °C (737 K). Venus has a dense 92-bar atmosphere composed of 96.5% carbon dioxide (CO₂) and thick sulfuric acid clouds that trap infrared heat in a powerful runaway greenhouse effect, whereas Mercury has virtually no atmosphere (only a vacuum-like exosphere) to retain heat."
+    },
+    {
+      "question": "Why is Pluto classified as a dwarf planet?",
+      "keywords": [
+        "why is pluto a dwarf planet",
+        "pluto planet status",
+        "dwarf planets list"
+      ],
+      "answer": "In August 2006, following the discovery of Eris and other icy Kuiper Belt objects, the International Astronomical Union (IAU) defined three criteria for a full planet: (1) it must orbit the Sun, (2) it must be nearly round due to self-gravity, and (3) it must have cleared its orbital neighborhood of other objects. Because Pluto shares the Kuiper Belt with thousands of icy bodies, it was reclassified as a dwarf planet alongside Ceres, Haumea, Makemake, and Eris."
+    }
+  ]
+}

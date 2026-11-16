@@ -1,0 +1,91 @@
+{
+  "serverUrl": "http://127.0.0.1:45925/index.html",
+  "tests": [
+    {
+      "id": "Test A",
+      "name": "Application Startup & Local 127.0.0.1 Server",
+      "status": "PASS",
+      "details": "127.0.0.1 HTTP server returned 200 OK for index.html, planets.json, and saturn.webp; 3D scene initialized with 14 solar system bodies (Sun + 8 planets + 5 dwarf planets)."
+    },
+    {
+      "id": "Test B",
+      "name": "Solar System (8 Planets + 5 Dwarf Planets)",
+      "status": "PASS",
+      "details": "All 8 classical planets and 5 IAU dwarf planets are present, visible, and registered for raycast/UI selection."
+    },
+    {
+      "id": "Test C",
+      "name": "Planet Details & Saturn Ring Inspector",
+      "status": "PASS",
+      "details": "Selecting Saturn opens right inspector with 120,536 km diameter, 274 moons, and D/C/B/Cassini/A/F ring structure."
+    },
+    {
+      "id": "Test D",
+      "name": "Camera Control (Orbit, Zoom, View Presets, Reset)",
+      "status": "PASS",
+      "details": "Camera orbit, zoom, view presets (Top/Side/Inner/Outer), and Reset Camera verified."
+    },
+    {
+      "id": "Test E",
+      "name": "Two Solar System Scales (Mode A & Mode B)",
+      "status": "PASS",
+      "details": "Switched cleanly between Mode A (Presentation Scale) and Mode B (Relative Scientific Scale)."
+    },
+    {
+      "id": "Test F",
+      "name": "Planetary Orbits & Time Simulation",
+      "status": "PASS",
+      "details": "Verified Keplerian motion, play/pause toggle, speed controls, and jump-to-date ('2027-06-01')."
+    },
+    {
+      "id": "Test G",
+      "name": "Moon Explorer (18 Moons + Jovian/Saturnian Views)",
+      "status": "PASS",
+      "details": "Verified Moon Explorer mode, Europa selection (3,121.6 km diameter), and parent system tours."
+    },
+    {
+      "id": "Test H",
+      "name": "Deep Space & Milky Way Explorer",
+      "status": "PASS",
+      "details": "Verified Deep Space mode, Milky Way spiral disk, Solar System 26,000 ly marker, and M31 Andromeda (2.5 Mly)."
+    },
+    {
+      "id": "Test I",
+      "name": "Interactive Space Missions (5 Guided Journeys)",
+      "status": "PASS",
+      "details": "Launched Mission 1 (Earth to Mars), verified 3D probe motion, pause, resume, and exit across all 5 mission scenarios."
+    },
+    {
+      "id": "Test J",
+      "name": "Astronomy Laboratory & What-If Sandbox",
+      "status": "PASS",
+      "details": "Verified What-If axial tilt/rotation experiments, side-by-side comparison table, and non-destructive Reset Experiment."
+    },
+    {
+      "id": "Test K",
+      "name": "Offline Atlas Knowledge Guide",
+      "status": "PASS",
+      "details": "Verified grounded local answers and honest offline fallback for unsupported queries."
+    },
+    {
+      "id": "Test L",
+      "name": "100% Offline Execution",
+      "status": "PASS",
+      "details": "Application runs inside an air-gapped offline VM with zero internet connectivity."
+    },
+    {
+      "id": "Test M",
+      "name": "Performance & Graphics Presets (LOW/MEDIUM/HIGH)",
+      "status": "PASS",
+      "details": "Verified LOW mode caps internal height <= 720p and reduces stars (900 vs 2,000 in MEDIUM) and instanced asteroids (160 vs 340)."
+    },
+    {
+      "id": "Test N",
+      "name": "Zero External Network Requests & Zero Console Errors",
+      "status": "PASS",
+      "details": "External requests: 0, Severe console errors: 0."
+    }
+  ],
+  "consoleErrors": [],
+  "externalRequests": []
+}

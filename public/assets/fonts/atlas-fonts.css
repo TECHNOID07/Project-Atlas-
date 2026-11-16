@@ -1,0 +1,6 @@
+/* Local Offline Font Stack for PROJECT ATLAS — Zero Remote Fonts */
+:root {
+  --font-display: 'Segoe UI', 'OrbitronLocal', 'Trebuchet MS', 'Arial', sans-serif;
+  --font-sans: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  --font-mono: 'Consolas', 'Cascadia Mono', 'Courier New', monospace;
+}

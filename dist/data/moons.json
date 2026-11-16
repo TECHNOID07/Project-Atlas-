@@ -1,0 +1,830 @@
+{
+  "metadata": {
+    "title": "PROJECT ATLAS — Planetary Satellite Explorer Dataset",
+    "primarySource": "NASA NSSDCA Satellite Fact Sheets (Moon, Martian, Jovian, Saturnian, Uranian, Neptunian, Pluto)",
+    "sourceUrl": "https://nssdc.gsfc.nasa.gov/planetary/planetfact.html",
+    "lastVerified": "2026-11-15"
+  },
+  "moons": [
+    {
+      "id": "moon",
+      "name": "Moon (Luna)",
+      "parentId": "earth",
+      "parentName": "Earth",
+      "diameterKm": {
+        "value": 3475,
+        "radiusKm": 1737.5,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+      },
+      "massKg": {
+        "value": "0.073 × 10^24 kg (7.346 × 10^22 kg)",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+      },
+      "distanceFromParentKm": {
+        "value": 384400,
+        "perihelionKm": 363000,
+        "aphelionKm": 406000,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+      },
+      "orbitalPeriodDays": {
+        "value": 27.32,
+        "synchronous": true,
+        "retrograde": false,
+        "unit": "days",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+      },
+      "gravityMs2": {
+        "value": 1.6,
+        "unit": "m/s²",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+      },
+      "densityKgm3": {
+        "value": 3340,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+      },
+      "colorHex": "#c4c4c4",
+      "texture": "./assets/textures/moon.webp",
+      "facts": [
+        "Earth's Moon is the fifth-largest natural satellite in the Solar System and the largest relative to its parent planet (~27% of Earth's diameter).",
+        "Synchronous rotation keeps the same lunar hemisphere facing Earth at all times as it orbits every 27.3 days (29.5-day synodic phase cycle).",
+        "Its surface features dark basaltic maria (ancient volcanic plains) and bright, heavily cratered feldspathic highlands."
+      ]
+    },
+    {
+      "id": "phobos",
+      "name": "Phobos",
+      "parentId": "mars",
+      "parentName": "Mars",
+      "diameterKm": {
+        "value": 22.2,
+        "dimensionsKm": "26.0 × 22.8 × 18.2 km (Radii 13.0 × 11.4 × 9.1 km)",
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "massKg": {
+        "value": "10.6 × 10^15 kg",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "distanceFromParentKm": {
+        "value": 9378,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 0.31891,
+        "hours": 7.65,
+        "synchronous": true,
+        "retrograde": false,
+        "unit": "days",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "densityKgm3": {
+        "value": 1900,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "colorHex": "#8d7c71",
+      "texture": "./assets/textures/mercury.webp",
+      "facts": [
+        "Phobos orbits Mars in just 7 hours 39 minutes (0.31891 days)—faster than Mars rotates—so it rises in the west and sets in the east.",
+        "Orbiting only 9,378 km from Mars's center (~6,000 km above the surface), tidal forces are gradually drawing Phobos closer to Mars.",
+        "Its surface is dominated by the 9-km-wide Stickney Crater and linear grooves."
+      ]
+    },
+    {
+      "id": "deimos",
+      "name": "Deimos",
+      "parentId": "mars",
+      "parentName": "Mars",
+      "diameterKm": {
+        "value": 12.6,
+        "dimensionsKm": "15.6 × 12.0 × 10.2 km (Radii 7.8 × 6.0 × 5.1 km)",
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "massKg": {
+        "value": "2.4 × 10^15 kg",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "distanceFromParentKm": {
+        "value": 23459,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 1.26244,
+        "hours": 30.3,
+        "synchronous": true,
+        "retrograde": false,
+        "unit": "days",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "densityKgm3": {
+        "value": 1750,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+      },
+      "colorHex": "#9e8f83",
+      "texture": "./assets/textures/ceres.webp",
+      "facts": [
+        "Deimos is the smaller and outer of Mars's two moons, orbiting at a mean distance of 23,459 km every 1.26244 days (30.3 hours).",
+        "Like Phobos, Deimos has a low albedo (0.08) and low density (1,750 kg/m³), resembling C- or D-type carbonaceous asteroids."
+      ]
+    },
+    {
+      "id": "io",
+      "name": "Io",
+      "parentId": "jupiter",
+      "parentName": "Jupiter",
+      "diameterKm": {
+        "value": 3643.0,
+        "radiusKm": 1821.5,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html"
+      },
+      "massKg": {
+        "value": "893.2 × 10^20 kg (8.932 × 10^22 kg)",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html"
+      },
+      "distanceFromParentKm": {
+        "value": 421800,
+        "jovianRadii": 5.91,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 1.769138,
+        "synchronous": true,
+        "retrograde": false,
+        "unit": "days",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html"
+      },
+      "densityKgm3": {
+        "value": 3530,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html"
+      },
+      "colorHex": "#f4d03f",
+      "texture": "./assets/textures/io.webp",
+      "facts": [
+        "Io is the innermost of Jupiter's four Galilean moons and the most volcanically active body in the Solar System.",
+        "Intense tidal heating is driven by a 4:2:1 Laplace orbital resonance with Europa and Ganymede.",
+        "Sulfur and sulfur dioxide plumes coat Io's surface in yellow, orange, red, and black volcanic deposits."
+      ]
+    },
+    {
+      "id": "europa",
+      "name": "Europa",
+      "parentId": "jupiter",
+      "parentName": "Jupiter",
+      "diameterKm": {
+        "value": 3121.6,
+        "radiusKm": 1560.8,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html"
+      },
+      "massKg": {
+        "value": "480.0 × 10^20 kg (4.800 × 10^22 kg)",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html"
+      },
+      "distanceFromParentKm": {
+        "value": 671100,
+        "jovianRadii": 9.4,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 3.551181,
+        "synchronous": true,
+        "retrograde": false,
+        "unit": "days",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html"
+      },
+      "densityKgm3": {
+        "value": 3010,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html"
+      },
+      "colorHex": "#dce8f2",
+      "texture": "./assets/textures/europa.webp",
+      "facts": [
+        "Europa's bright water-ice crust (geometric albedo 0.68) is crisscrossed by reddish-brown linear fractures (lineae) and has very few impact craters.",
+        "Strong scientific evidence indicates a global subsurface liquid saltwater ocean beneath Europa's ice shell, making it a primary target of NASA's Europa Clipper mission.",
+        "Europa completes one orbit around Jupiter every 3.551 days at a distance of 671,100 km."
+      ]
+    },
+    {
+      "id": "ganymede",
+      "name": "Ganymede",
+      "parentId": "jupiter",
+      "parentName": "Jupiter",
+      "diameterKm": {
+        "value": 5262.4,
+        "radiusKm": 2631.2,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html"
+      },
+      "massKg": {
+        "value": "1481.9 × 10^20 kg (1.4819 × 10^23 kg)",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html"
+      },
+      "distanceFromParentKm": {
+        "value": 1070400,
+        "jovianRadii": 14.97,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 7.154553,
+        "synchronous": true,
+        "retrograde": false,
+        "unit": "days",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html"
+      },
+      "densityKgm3": {
+        "value": 1940,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html"
+      },
+      "colorHex": "#b5a895",
+      "texture": "./assets/textures/ganymede.webp",
+      "facts": [
+        "With a diameter of 5,262.4 km (radius 2,631.2 km), Ganymede is the largest moon in the Solar System—larger in diameter than the planet Mercury (4,879 km).",
+        "Ganymede is the only moon known to generate its own internal magnetic field, and models indicate a deep subsurface ocean sandwiched between ice layers."
+      ]
+    },
+    {
+      "id": "callisto",
+      "name": "Callisto",
+      "parentId": "jupiter",
+      "parentName": "Jupiter",
+      "diameterKm": {
+        "value": 4820.6,
+        "radiusKm": 2410.3,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html"
+      },
+      "massKg": {
+        "value": "1075.9 × 10^20 kg (1.0759 × 10^23 kg)",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html"
+      },
+      "distanceFromParentKm": {
+        "value": 1882700,
+        "jovianRadii": 26.33,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 16.689017,
+        "synchronous": true,
+        "retrograde": false,
+        "unit": "days",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html"
+      },
+      "densityKgm3": {
+        "value": 1830,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html"
+      },
+      "colorHex": "#7d7468",
+      "texture": "./assets/textures/mercury.webp",
+      "facts": [
+        "Callisto is the third-largest moon in the Solar System (diameter 4,820.6 km) and the outermost of the four Galilean moons.",
+        "Because it orbits outside the main Laplace resonance at 1,882,700 km, Callisto lacks strong tidal heating and preserves one of the oldest, most heavily cratered surfaces in the Solar System."
+      ]
+    },
+    {
+      "id": "titan",
+      "name": "Titan",
+      "parentId": "saturn",
+      "parentName": "Saturn",
+      "diameterKm": {
+        "value": 5150,
+        "radiusKm": 2575,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html"
+      },
+      "massKg": {
+        "value": "1345.5 × 10^20 kg (1.3455 × 10^23 kg)",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html"
+      },
+      "distanceFromParentKm": {
+        "value": 1221870,
+        "saturnianRadii": 20.273,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 15.945421,
+        "synchronous": true,
+        "retrograde": false,
+        "unit": "days",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html"
+      },
+      "densityKgm3": {
+        "value": 1880,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html"
+      },
+      "colorHex": "#e5a93c",
+      "texture": "./assets/textures/titan.webp",
+      "facts": [
+        "Titan is Saturn's largest moon and the second-largest moon in the Solar System (diameter 5,150 km), exceeding Mercury in diameter.",
+        "It is the only moon in the Solar System with a dense atmosphere (~1.5 bar nitrogen-methane) and stable liquid hydrocarbon lakes and seas of methane and ethane on its 94 K surface."
+      ]
+    },
+    {
+      "id": "enceladus",
+      "name": "Enceladus",
+      "parentId": "saturn",
+      "parentName": "Saturn",
+      "diameterKm": {
+        "value": 504,
+        "dimensionsKm": "514 × 502 × 496 km (Radii 257 × 251 × 248 km)",
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html"
+      },
+      "massKg": {
+        "value": "1.08 × 10^20 kg",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html"
+      },
+      "distanceFromParentKm": {
+        "value": 238020,
+        "saturnianRadii": 3.9494,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 1.370218,
+        "synchronous": true,
+        "retrograde": false,
+        "unit": "days",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html"
+      },
+      "densityKgm3": {
+        "value": 1610,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html"
+      },
+      "colorHex": "#f0f8ff",
+      "texture": "./assets/textures/europa.webp",
+      "facts": [
+        "Enceladus has a visual geometric albedo of ~1.0, making its fresh water-ice surface one of the most reflective bodies in the Solar System.",
+        "Cryovolcanic plumes erupting from 'tiger stripe' fractures at its south pole vent water vapor, ice grains, and organic molecules from a global subsurface ocean, feeding Saturn's E ring."
+      ]
+    },
+    {
+      "id": "rhea",
+      "name": "Rhea",
+      "parentId": "saturn",
+      "parentName": "Saturn",
+      "diameterKm": {
+        "value": 1528,
+        "dimensionsKm": "Radii 765 × 763 × 762 km",
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html"
+      },
+      "massKg": {
+        "value": "23.1 × 10^20 kg",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html"
+      },
+      "distanceFromParentKm": {
+        "value": 527040,
+        "saturnianRadii": 8.7449,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 4.5175,
+        "synchronous": true,
+        "retrograde": false,
+        "unit": "days",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html"
+      },
+      "densityKgm3": {
+        "value": 1240,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html"
+      },
+      "colorHex": "#d0d5dd",
+      "texture": "./assets/textures/moon.webp",
+      "facts": [
+        "Rhea is Saturn's second-largest moon (mean diameter ~1,528 km), composed of roughly three-quarters water ice and one-quarter rock (density 1,240 kg/m³)."
+      ]
+    },
+    {
+      "id": "iapetus",
+      "name": "Iapetus",
+      "parentId": "saturn",
+      "parentName": "Saturn",
+      "diameterKm": {
+        "value": 1470,
+        "dimensionsKm": "Radii 746 × 746 × 712 km",
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html"
+      },
+      "massKg": {
+        "value": "18.1 × 10^20 kg",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html"
+      },
+      "distanceFromParentKm": {
+        "value": 3560850,
+        "saturnianRadii": 59.091,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 79.330183,
+        "synchronous": true,
+        "retrograde": false,
+        "unit": "days",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html"
+      },
+      "densityKgm3": {
+        "value": 1090,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html"
+      },
+      "colorHex": "#b89f88",
+      "texture": "./assets/textures/ceres.webp",
+      "facts": [
+        "Iapetus is famous for its dramatic two-tone coloration—a dark leading hemisphere (albedo 0.05) and a bright icy trailing hemisphere (albedo 0.5)—and a giant equatorial ridge."
+      ]
+    },
+    {
+      "id": "miranda",
+      "name": "Miranda",
+      "parentId": "uranus",
+      "parentName": "Uranus",
+      "diameterKm": {
+        "value": 471.6,
+        "dimensionsKm": "Radii 240 × 234.2 × 232.9 km",
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "massKg": {
+        "value": "0.66 × 10^20 kg",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "distanceFromParentKm": {
+        "value": 129900,
+        "uranianRadii": 5.082,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 1.413479,
+        "synchronous": true,
+        "retrograde": false,
+        "unit": "days",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "densityKgm3": {
+        "value": 1200,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "colorHex": "#b5c6d6",
+      "texture": "./assets/textures/moon.webp",
+      "facts": [
+        "Miranda is the innermost and smallest of Uranus's five major moons, displaying extreme patchwork geology (coronae) and Verona Rupes, one of the tallest cliffs in the Solar System."
+      ]
+    },
+    {
+      "id": "ariel",
+      "name": "Ariel",
+      "parentId": "uranus",
+      "parentName": "Uranus",
+      "diameterKm": {
+        "value": 1157.8,
+        "dimensionsKm": "Radii 581.1 × 577.9 × 577.7 km",
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "massKg": {
+        "value": "12.9 × 10^20 kg",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "distanceFromParentKm": {
+        "value": 190900,
+        "uranianRadii": 7.469,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 2.520379,
+        "synchronous": true,
+        "retrograde": false,
+        "unit": "days",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "densityKgm3": {
+        "value": 1590,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "colorHex": "#d0dce8",
+      "texture": "./assets/textures/europa.webp",
+      "facts": [
+        "Ariel is the brightest of Uranus's major moons (albedo 0.39), featuring a relatively young surface cut by extensive fault canyons and grabens."
+      ]
+    },
+    {
+      "id": "umbriel",
+      "name": "Umbriel",
+      "parentId": "uranus",
+      "parentName": "Uranus",
+      "diameterKm": {
+        "value": 1169.4,
+        "radiusKm": 584.7,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "massKg": {
+        "value": "12.2 × 10^20 kg",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "distanceFromParentKm": {
+        "value": 266000,
+        "uranianRadii": 10.41,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 4.144176,
+        "synchronous": true,
+        "retrograde": false,
+        "unit": "days",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "densityKgm3": {
+        "value": 1460,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "colorHex": "#7a828c",
+      "texture": "./assets/textures/ceres.webp",
+      "facts": [
+        "Umbriel is the darkest of Uranus's five major moons (albedo 0.21), heavily cratered and topped by a mysterious bright ring on the floor of Wunda crater."
+      ]
+    },
+    {
+      "id": "titania",
+      "name": "Titania",
+      "parentId": "uranus",
+      "parentName": "Uranus",
+      "diameterKm": {
+        "value": 1577.8,
+        "radiusKm": 788.9,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "massKg": {
+        "value": "34.2 × 10^20 kg",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "distanceFromParentKm": {
+        "value": 436300,
+        "uranianRadii": 17.07,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 8.705867,
+        "synchronous": true,
+        "retrograde": false,
+        "unit": "days",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "densityKgm3": {
+        "value": 1660,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "colorHex": "#b8c0c8",
+      "texture": "./assets/textures/moon.webp",
+      "facts": [
+        "Titania is Uranus's largest moon (diameter 1,577.8 km, radius 788.9 km) and the eighth-largest moon in the Solar System, composed of roughly equal parts ice and rock."
+      ]
+    },
+    {
+      "id": "oberon",
+      "name": "Oberon",
+      "parentId": "uranus",
+      "parentName": "Uranus",
+      "diameterKm": {
+        "value": 1522.8,
+        "radiusKm": 761.4,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "massKg": {
+        "value": "28.8 × 10^20 kg",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "distanceFromParentKm": {
+        "value": 583500,
+        "uranianRadii": 22.83,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 13.463234,
+        "synchronous": true,
+        "retrograde": false,
+        "unit": "days",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "densityKgm3": {
+        "value": 1560,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html"
+      },
+      "colorHex": "#9ea4ad",
+      "texture": "./assets/textures/mercury.webp",
+      "facts": [
+        "Oberon is the outermost and second-largest of Uranus's major moons, orbiting at 583,500 km every 13.46 days."
+      ]
+    },
+    {
+      "id": "triton",
+      "name": "Triton",
+      "parentId": "neptune",
+      "parentName": "Neptune",
+      "diameterKm": {
+        "value": 2706.8,
+        "radiusKm": 1353.4,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptuniansatfact.html"
+      },
+      "massKg": {
+        "value": "214.0 × 10^20 kg (2.14 × 10^22 kg)",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptuniansatfact.html"
+      },
+      "distanceFromParentKm": {
+        "value": 354760,
+        "neptuneRadii": 14.328,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptuniansatfact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 5.876854,
+        "synchronous": true,
+        "retrograde": true,
+        "inclinationDeg": 157.345,
+        "unit": "days",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptuniansatfact.html"
+      },
+      "densityKgm3": {
+        "value": 2050,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptuniansatfact.html"
+      },
+      "colorHex": "#d8e6f0",
+      "texture": "./assets/textures/pluto.webp",
+      "facts": [
+        "Triton is Neptune's largest moon (diameter 2,706.8 km) and the only large moon in the Solar System with a retrograde orbit (inclination 157.345°).",
+        "Voyager 2 observed active nitrogen gas geysers and 'cantaloupe terrain' on Triton's icy surface (albedo 0.72)."
+      ]
+    },
+    {
+      "id": "charon",
+      "name": "Charon",
+      "parentId": "pluto",
+      "parentName": "Pluto",
+      "diameterKm": {
+        "value": 1212,
+        "radiusKm": 606,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html"
+      },
+      "massKg": {
+        "value": "1.586 × 10^21 kg",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html"
+      },
+      "distanceFromParentKm": {
+        "value": 19596,
+        "unit": "km",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html"
+      },
+      "orbitalPeriodDays": {
+        "value": 6.3872,
+        "synchronous": true,
+        "retrograde": false,
+        "unit": "days",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html"
+      },
+      "gravityMs2": {
+        "value": 0.29,
+        "unit": "m/s²",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html"
+      },
+      "densityKgm3": {
+        "value": 1700,
+        "unit": "kg/m³",
+        "approx": false,
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html"
+      },
+      "colorHex": "#9da5b0",
+      "texture": "./assets/textures/ceres.webp",
+      "facts": [
+        "Charon is half the diameter of Pluto (1,212 km vs. 2,376 km), so the Pluto-Charon barycenter lies in space outside Pluto's surface.",
+        "Both Pluto and Charon are mutually tidally locked with a 6.3872-day period, forever facing the same sides toward one another."
+      ]
+    }
+  ]
+}
